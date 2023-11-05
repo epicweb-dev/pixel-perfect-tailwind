@@ -1,7 +1,7 @@
 <div>
   <h1 align="center"><a href="https://www.epicweb.dev/workshops">Unleash The Designer in You</a></h1>
   <strong>
-    Trick yourself (intentionally or accidentally) into becoming a better UI designer, with Tailwind CSS
+    Become a better UI designer with Tailwind — intentionally or accidentally
   </strong>
   <p>
     Workshop summary
