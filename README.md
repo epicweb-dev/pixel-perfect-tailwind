@@ -1,7 +1,7 @@
 <div>
-  <h1 align="center"><a href="https://www.epicweb.dev/workshops">Workshop Title</a></h1>
+  <h1 align="center"><a href="https://www.epicweb.dev/workshops">Unleash The Designer in You</a></h1>
   <strong>
-    Workshop tagline
+    Trick yourself (intentionally or accidentally) into becoming a better UI designer, with Tailwind CSS
   </strong>
   <p>
     Workshop summary
