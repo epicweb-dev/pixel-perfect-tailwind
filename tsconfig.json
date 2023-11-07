@@ -3,5 +3,27 @@
   "exclude": [
     "node_modules"
   ],
-  "references": []
+  "references": [
+    {
+      "path": "exercises/01.design-in-the-browser/01.problem.container-width"
+    },
+    {
+      "path": "exercises/01.design-in-the-browser/01.solution.container-width"
+    },
+    {
+      "path": "exercises/02.figma-to-code/01.problem.starting-point"
+    },
+    {
+      "path": "exercises/02.figma-to-code/01.solution.starting-point"
+    },
+    {
+      "path": "exercises/03.creative-coding/01.problem.find-inspiration"
+    },
+    {
+      "path": "exercises/03.creative-coding/01.solution.find-inspiration"
+    },
+    {
+      "path": "exercises/03.creative-coding/02.problem.iphone-cards"
+    }
+  ]
 }

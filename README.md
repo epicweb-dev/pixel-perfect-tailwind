@@ -32,18 +32,18 @@
 
 ## Prerequisites
 
-- TODO: add prerequisites
 - Some
-- Pre-requisite
-- links
-- here
+  [experience with JavaScript](https://kentcdodds.com/blog/javascript-to-know-for-react)
+- Some
+  [experience with React](https://egghead.io/courses/the-beginner-s-guide-to-react)
+- Some [experience with Tailwind CSS](https://tailwindcss.com)
 
 ## Pre-workshop Resources
 
 Here are some resources you can read before taking the workshop to get you up to
 speed on some of the tools and concepts we'll be covering:
 
-- TODO: add resources
+- [Tailwind CSS Documentation](https://tailwindcss.com)
 
 ## System Requirements
 
