@@ -11,6 +11,30 @@
       "path": "exercises/01.design-in-the-browser/01.solution.container-width"
     },
     {
+      "path": "exercises/01.design-in-the-browser/02.problem.typography-and-spacing"
+    },
+    {
+      "path": "exercises/01.design-in-the-browser/02.solution.typography-and-spacing"
+    },
+    {
+      "path": "exercises/01.design-in-the-browser/03.problem.elevation-and-separation"
+    },
+    {
+      "path": "exercises/01.design-in-the-browser/03.solution.elevation-and-separation"
+    },
+    {
+      "path": "exercises/01.design-in-the-browser/04.problem.card-header"
+    },
+    {
+      "path": "exercises/01.design-in-the-browser/04.solution.card-header"
+    },
+    {
+      "path": "exercises/01.design-in-the-browser/05.problem.card-footer"
+    },
+    {
+      "path": "exercises/01.design-in-the-browser/05.solution.card-footer"
+    },
+    {
       "path": "exercises/02.figma-to-code/01.problem.starting-point"
     },
     {
