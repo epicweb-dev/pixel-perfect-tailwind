@@ -35,19 +35,40 @@
       "path": "exercises/01.design-in-the-browser/05.solution.card-footer"
     },
     {
-      "path": "exercises/02.figma-to-code/01.problem.starting-point"
+      "path": "exercises/02.figma-to-code/01.problem.unstyled-markup"
     },
     {
-      "path": "exercises/02.figma-to-code/01.solution.starting-point"
+      "path": "exercises/02.figma-to-code/01.solution.unstyled-markup"
     },
     {
-      "path": "exercises/03.creative-coding/01.problem.find-inspiration"
+      "path": "exercises/02.figma-to-code/08.solution.finish-line"
     },
     {
-      "path": "exercises/03.creative-coding/01.solution.find-inspiration"
+      "path": "exercises/03.creative-coding/01.problem.unstyled-markup"
     },
     {
-      "path": "exercises/03.creative-coding/02.problem.iphone-cards"
+      "path": "exercises/03.creative-coding/01.solution.unstyled-markup"
+    },
+    {
+      "path": "exercises/03.creative-coding/02.problem.card-styles"
+    },
+    {
+      "path": "exercises/03.creative-coding/02.solution.card-styles"
+    },
+    {
+      "path": "exercises/03.creative-coding/03.problem.content-styles"
+    },
+    {
+      "path": "exercises/03.creative-coding/03.solution.content-styles"
+    },
+    {
+      "path": "exercises/03.creative-coding/04.problem.decorative-bubble"
+    },
+    {
+      "path": "exercises/03.creative-coding/04.solution.decorative-bubble"
+    },
+    {
+      "path": "exercises/03.creative-coding/10.problem.iphone-cards"
     }
   ]
 }
