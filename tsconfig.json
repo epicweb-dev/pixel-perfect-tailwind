@@ -41,7 +41,28 @@
       "path": "exercises/02.figma-to-code/01.solution.unstyled-markup"
     },
     {
-      "path": "exercises/02.figma-to-code/08.solution.finish-line"
+      "path": "exercises/02.figma-to-code/07.problem.layout-changes"
+    },
+    {
+      "path": "exercises/02.figma-to-code/07.solution.layout-changes"
+    },
+    {
+      "path": "exercises/02.figma-to-code/08.problem.image-and-content-alignment"
+    },
+    {
+      "path": "exercises/02.figma-to-code/08.solution.image-and-content-alignment"
+    },
+    {
+      "path": "exercises/02.figma-to-code/09.problem.stacked-cards"
+    },
+    {
+      "path": "exercises/02.figma-to-code/09.solution.stacked-cards"
+    },
+    {
+      "path": "exercises/02.figma-to-code/10.problem.final-polish"
+    },
+    {
+      "path": "exercises/02.figma-to-code/10.solution.final-polish"
     },
     {
       "path": "exercises/03.creative-coding/01.problem.unstyled-markup"
