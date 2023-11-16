@@ -1,8 +1,15 @@
 import image from './assets/sunset-skateboard.jpg'
 
+const user = {
+	name: 'Max Stylus',
+	registeredIn: 'September 2022',
+	profileImage: image,
+	notesCount: 5,
+}
+
 export default function App() {
 	return (
-		<div className="font-comfortaa grid min-h-screen place-items-center bg-cyan-400 p-6">
+		<div className="grid min-h-screen place-items-center bg-cyan-400 p-6 font-comfortaa">
 			<div className="group relative w-full max-w-sm md:h-[300px] md:w-[640px] md:max-w-none">
 				{/* Stack effect */}
 				<div className="absolute inset-2 translate-y-4 rounded-xl bg-white opacity-60 ring-1 ring-black/5 duration-300 group-hover:translate-y-3 md:-translate-x-4 md:translate-y-0 md:group-hover:-translate-x-3 md:group-hover:translate-y-0"></div>
@@ -15,7 +22,7 @@ export default function App() {
 							<div className="absolute -top-24 bottom-0 left-0 right-0 overflow-hidden rounded-xl shadow-2xl ring-1 ring-black/5 md:-bottom-6 md:-top-6 md:left-6">
 								<img
 									className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:-rotate-1 group-hover:scale-105"
-									src={image}
+									src={user.profileImage}
 								/>
 							</div>
 						</div>
@@ -24,13 +31,17 @@ export default function App() {
 							<h2 className="text-4xl/10 font-bold text-cyan-950">
 								Max Stylus
 							</h2>
-							<p className="mt-2 text-cyan-950/80">Joined in September 2022</p>
+							<p className="mt-2 text-cyan-950/80">
+								Joined in {user.registeredIn}
+							</p>
 							<a
 								href="#"
 								className="mt-4 flex items-center justify-center gap-2 rounded-md bg-cyan-100 p-4 text-cyan-950 hover:bg-cyan-200"
 							>
 								<span>View all</span>
-								<span className="text-2xl font-bold text-cyan-950/75">5</span>
+								<span className="text-2xl font-bold text-cyan-950/75">
+									{user.notesCount}
+								</span>
 								<span>notes</span>
 							</a>
 						</div>
