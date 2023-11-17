@@ -27,7 +27,7 @@
   "author": "Simon Vrachliotis <simon@simonswiss.com> (https://simonswiss.com/)",
   "license": "GPL-3.0-only",
   "dependencies": {
-    "@kentcdodds/workshop-app": "^2.58.1"
+    "@kentcdodds/workshop-app": "^2.58.2"
   },
   "eslintIgnore": [
     "/node_modules",
