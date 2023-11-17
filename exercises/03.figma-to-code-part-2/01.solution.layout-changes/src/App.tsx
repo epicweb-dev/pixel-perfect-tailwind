@@ -9,7 +9,7 @@ const user = {
 
 export default function App() {
 	return (
-		<div className="grid min-h-screen place-items-center bg-cyan-400 p-6 font-comfortaa">
+		<div className="font-comfortaa grid min-h-screen place-items-center bg-cyan-400 p-6">
 			{/* 
 				🐨 Create a "card stack" effect according to the design 
 			*/}

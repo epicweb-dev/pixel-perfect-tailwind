@@ -27,13 +27,20 @@
   "author": "Simon Vrachliotis <simon@simonswiss.com> (https://simonswiss.com/)",
   "license": "GPL-3.0-only",
   "dependencies": {
-    "@kentcdodds/workshop-app": "^2.56.4"
+    "@kentcdodds/workshop-app": "^2.58.1"
   },
   "eslintIgnore": [
     "/node_modules",
     "/build",
     "/public/build"
   ],
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    }
+  },
   "workspaces": [
     "exercises/*/*",
     "examples/*"
@@ -44,7 +51,9 @@
     "git": ">=2.18.0"
   },
   "devDependencies": {
+    "@typescript-eslint/parser": "^6.11.0",
     "execa": "^8.0.1",
-    "fs-extra": "^11.1.1"
+    "fs-extra": "^11.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.7"
   }
 }

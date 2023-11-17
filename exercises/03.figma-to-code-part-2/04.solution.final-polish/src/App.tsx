@@ -9,7 +9,7 @@ const user = {
 
 export default function App() {
 	return (
-		<div className="grid min-h-screen place-items-center bg-cyan-400 p-6 font-comfortaa">
+		<div className="font-comfortaa grid min-h-screen place-items-center bg-cyan-400 p-6">
 			<div className="group relative w-full max-w-sm md:h-[300px] md:w-[640px] md:max-w-none">
 				{/* Stack effect */}
 				<div className="absolute inset-2 translate-y-4 rounded-xl bg-white opacity-60 ring-1 ring-black/5 duration-300 group-hover:translate-y-3 md:-translate-x-4 md:translate-y-0 md:group-hover:-translate-x-3 md:group-hover:translate-y-0"></div>
