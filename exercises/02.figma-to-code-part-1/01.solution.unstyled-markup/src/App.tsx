@@ -10,10 +10,12 @@ const user = {
 export default function App() {
 	return (
 		<div>
-			<img src={user.profileImage} className="w-56" />
-			<h2>{user.name}</h2>
-			<p>Joined in {user.registeredIn}</p>
-			<a href="#">View all {user.notesCount} notes</a>
+			<div>
+				<img src={user.profileImage} className="w-56" />
+				<h2>{user.name}</h2>
+				<p>Joined in {user.registeredIn}</p>
+				<a href="#">View all {user.notesCount} notes</a>
+			</div>
 		</div>
 	)
 }

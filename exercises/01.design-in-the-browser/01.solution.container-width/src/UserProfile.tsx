@@ -15,7 +15,7 @@ export default function UserProfile() {
 				<header className="flex flex-col items-center px-8">
 					<img
 						src={user.avatarUrl}
-						alt={`avatar for ${user.name}`}
+						alt={`Avatar for ${user.name}`}
 						className="-mt-20 h-40 w-40 rounded-full object-cover"
 					/>
 					<h1 className="mt-1 text-center text-5xl font-extrabold">

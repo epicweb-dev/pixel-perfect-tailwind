@@ -20,7 +20,7 @@ export default function UserProfile() {
 					<img
 						src={user.avatarUrl}
 						alt={`Avatar for ${user.name}`}
-						className="-mt-28 h-56 w-56 rounded-full object-cover"
+						className="-mt-20 h-40 w-40 rounded-full object-cover"
 					/>
 					<h1 className="mt-1 text-center text-5xl font-extrabold">
 						{user.name}

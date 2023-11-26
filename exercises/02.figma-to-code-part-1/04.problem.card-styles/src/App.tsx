@@ -9,7 +9,7 @@ const user = {
 
 export default function App() {
 	return (
-		<div className="font-comfortaa grid min-h-screen place-items-center bg-cyan-400 p-6">
+		<div className="grid min-h-screen place-items-center bg-cyan-400 p-6">
 			{/* 
 				🐨 Style the card — keep the following attributes in mind:
 				- width and height

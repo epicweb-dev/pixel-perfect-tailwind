@@ -9,9 +9,9 @@ const user = {
 
 export default function App() {
 	return (
-		<div className="font-comfortaa grid min-h-screen place-items-center bg-cyan-400 p-6">
+		<div className="grid min-h-screen place-items-center bg-cyan-400 p-6">
 			<div className="w-full max-w-sm rounded-xl bg-white shadow-2xl ring-1 ring-black/5">
-				<div className="flex h-full flex-col items-center">
+				<div className="flex flex-col items-center">
 					{/* 
 						🐨 Style the image — keep the following attributes in mind:
 						- rounded corners
@@ -20,7 +20,6 @@ export default function App() {
 						- vertical offset
 					*/}
 					<img src={user.profileImage} className="w-56" />
-					{/* Content */}
 					<div>
 						<h2>{user.name}</h2>
 						<p>Joined in {user.registeredIn}</p>

@@ -9,7 +9,7 @@ const user = {
 
 export default function App() {
 	return (
-		<div className="font-comfortaa">
+		<div>
 			<div>
 				<img src={user.profileImage} className="w-56" />
 				<h2>{user.name}</h2>

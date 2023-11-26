@@ -9,7 +9,7 @@ const user = {
 
 export default function App() {
 	return (
-		<div className="font-comfortaa grid min-h-screen place-items-center bg-cyan-400 p-6">
+		<div className="grid min-h-screen place-items-center bg-cyan-400 p-6">
 			<div>
 				<img src={user.profileImage} className="w-56" />
 				<h2>{user.name}</h2>
