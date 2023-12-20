@@ -11,8 +11,8 @@ const user = {
 export default function UserProfile() {
 	return (
 		<div className="pb-20 pt-48">
-			<div className="mx-auto max-w-md rounded-3xl bg-slate-100">
-				<header className="flex flex-col items-center px-8">
+			<div className="mx-auto max-w-md rounded-3xl bg-slate-100 px-8">
+				<header className="flex flex-col items-center">
 					<img
 						src={user.avatarUrl}
 						alt={`avatar for ${user.name}`}
@@ -23,7 +23,7 @@ export default function UserProfile() {
 						Joined on {user.registerDate}
 					</p>
 				</header>
-				<p className="mt-8 px-8 text-lg text-slate-900">{user.bio}</p>
+				<p className="mt-8 text-lg text-slate-900">{user.bio}</p>
 				<footer className="py-16 text-center">
 					<a
 						href="#"

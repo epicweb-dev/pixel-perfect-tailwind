@@ -11,17 +11,21 @@ const user = {
 export default function UserProfile() {
 	return (
 		<div className="pb-20 pt-48">
-			{/* 🐨 Change the card background color to `bg-white` */}
-			<div className="mx-auto max-w-md rounded-3xl bg-slate-100 shadow-lg ring-1 ring-slate-300">
+			{/* Card container */}
+			<div className="mx-auto max-w-md rounded-3xl bg-slate-100 px-8 shadow-lg ring-1 ring-slate-300">
 				{/* 
           🐨 Wrap the header + user bio in a `div`. 
           This wrapper should have the following visual aspects:
           
-          1. a 8rem offset from the top of the card
+          1. a 8rem offset (margin-top) from the top of the card
           2. a border at the top that's 1px thick and the color `slate-300`
-          3. a top-to-bottom background gradient from `slate-200` (at 50% opacity) to `white`
         */}
-				<header className="flex flex-col items-center px-8">
+
+				{/* 
+          🐨 Notice the 8rem offset not working? This is due to collapsing margins.
+					You can fix it with the `overflow-auto` class on the card container.
+        */}
+				<header className="flex flex-col items-center">
 					<img
 						src={user.avatarUrl}
 						alt={`avatar for ${user.name}`}
@@ -32,7 +36,7 @@ export default function UserProfile() {
 						Joined on {user.registerDate}
 					</p>
 				</header>
-				<p className="mt-8 px-8 text-lg text-slate-900">{user.bio}</p>
+				<p className="mt-8 text-lg text-slate-900">{user.bio}</p>
 				<footer className="py-16 text-center">
 					<a
 						href="#"

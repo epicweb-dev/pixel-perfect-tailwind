@@ -11,8 +11,8 @@ const user = {
 export default function UserProfile() {
 	return (
 		<div className="pb-20 pt-48">
-			<div className="mx-auto max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-slate-300">
-				<div className="mt-32 border-t border-slate-300 bg-gradient-to-b from-slate-200/50 to-white">
+			<div className="mx-auto max-w-md overflow-auto rounded-3xl bg-slate-100 shadow-lg ring-1 ring-slate-300">
+				<div className="mt-32 border-t border-slate-300">
 					<header className="flex flex-col items-center px-8">
 						<img
 							src={user.avatarUrl}
@@ -29,7 +29,7 @@ export default function UserProfile() {
 				<footer className="mt-10 border-t border-slate-300">
 					<a
 						href="#"
-						className="duration-50 block px-8 py-6 text-center font-semibold text-slate-900 transition hover:bg-slate-100"
+						className="duration-50 block px-8 py-6 text-center font-semibold text-slate-900 transition hover:underline"
 					>
 						Read notes
 					</a>

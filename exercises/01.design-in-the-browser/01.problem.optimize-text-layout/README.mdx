@@ -1,0 +1,23 @@
+# Optimize Text Layout
+
+<callout-warning>
+	**5 minutes**: - intro: 2 min - work: 2 min - solution: 1 minute
+</callout-warning>
+
+It seems like the user profile card is unnecessarily wide. This is particularly problematic with the biography copy, which is hard to read with such a long line length.
+
+## Line length and legibility
+
+You've very likely heard and thought about `line-height` many times when styling applications. But did you know that line _length_ is almost equally important, in terms of text legibility and visual appeal?
+
+The ideal line length for copy readability is **between 45 and 80 characters**.
+
+It's the sweet spot where text is not too wide or too narrow. If the line length is too wide, your eye has to travel too far to the next line. It makes it easy to accidentally skip a line, or start reading the same line again.
+
+On the flip side, narrow text leads to very frequent line jumps, which can make the reader tired.
+
+The longer the text, the more important it is to keep the line length in check.
+
+Our user biographies are likely going to be pretty short, but we still want to make this text narrower — it will also help a lot with aesthetics!
+
+Make the profile card a bit narrower. You can do this by adding a `max-width` utility class to the element that contains the profile card.

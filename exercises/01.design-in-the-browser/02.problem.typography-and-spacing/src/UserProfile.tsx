@@ -11,8 +11,8 @@ const user = {
 export default function UserProfile() {
 	return (
 		<div className="pb-20 pt-48">
-			<div className="mx-auto max-w-md rounded-3xl bg-slate-100">
-				<header className="flex flex-col items-center px-8">
+			<div className="mx-auto max-w-md rounded-3xl bg-slate-100 px-8">
+				<header className="flex flex-col items-center">
 					<img
 						src={user.avatarUrl}
 						alt={`avatar for ${user.name}`}
@@ -36,7 +36,7 @@ export default function UserProfile() {
           2. Increase the horizontal padding to level 8
           3. Make the text large, slate-500 and left-aligned
         */}
-				<p className="mt-2 px-4 text-center text-xl">{user.bio}</p>
+				<p className="mt-2 text-center text-xl">{user.bio}</p>
 				<footer className="py-16 text-center">
 					<a
 						href="#"

@@ -12,8 +12,8 @@ export default function UserProfile() {
 	return (
 		<div className="pb-20 pt-48">
 			{/* 🐨 Add a large shadow and a 1px slate-300 ring to the card container */}
-			<div className="mx-auto max-w-md rounded-3xl bg-slate-100">
-				<header className="flex flex-col items-center px-8">
+			<div className="mx-auto max-w-md rounded-3xl bg-slate-100 px-8">
+				<header className="flex flex-col items-center">
 					{/* 🐨 Add the same shadow and ring to the image, but also add a 6px white ring offset */}
 					<img
 						src={user.avatarUrl}
@@ -25,7 +25,7 @@ export default function UserProfile() {
 						Joined on {user.registerDate}
 					</p>
 				</header>
-				<p className="mt-8 px-8 text-lg text-slate-900">{user.bio}</p>
+				<p className="mt-8 text-lg text-slate-900">{user.bio}</p>
 				<footer className="py-16 text-center">
 					<a
 						href="#"

@@ -5,10 +5,10 @@
   ],
   "references": [
     {
-      "path": "exercises/01.design-in-the-browser/01.problem.container-width"
+      "path": "exercises/01.design-in-the-browser/01.problem.optimize-text-layout"
     },
     {
-      "path": "exercises/01.design-in-the-browser/01.solution.container-width"
+      "path": "exercises/01.design-in-the-browser/01.solution.optimize-text-layout"
     },
     {
       "path": "exercises/01.design-in-the-browser/02.problem.typography-and-spacing"
@@ -33,6 +33,12 @@
     },
     {
       "path": "exercises/01.design-in-the-browser/05.solution.card-footer"
+    },
+    {
+      "path": "exercises/01.design-in-the-browser/06.problem.aesthetic-touches"
+    },
+    {
+      "path": "exercises/01.design-in-the-browser/06.solution.aesthetic-touches"
     },
     {
       "path": "exercises/02.figma-to-code-part-1/01.problem.unstyled-markup"
