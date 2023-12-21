@@ -11,20 +11,7 @@ const user = {
 export default function UserProfile() {
 	return (
 		<div className="pb-20 pt-48">
-			{/* Card container */}
 			<div className="mx-auto max-w-md rounded-3xl bg-slate-100 px-8 text-center shadow-lg ring-1 ring-slate-300">
-				{/* 
-          🐨 Wrap the header + user bio in a `div`. 
-          This wrapper should have the following visual aspects:
-          
-          1. a 8rem offset (margin-top) from the top of the card
-          2. a border at the top that's 1px thick and the color `slate-300`
-        */}
-
-				{/* 
-          🐨 Notice the 8rem offset not working? This is due to collapsing margins.
-					You can fix it with the `overflow-auto` class on the card container.
-        */}
 				<header className="flex flex-col items-center">
 					<img
 						src={user.avatarUrl}
@@ -35,7 +22,24 @@ export default function UserProfile() {
 					<p className="mt-2 text-slate-500">Joined on {user.registerDate}</p>
 				</header>
 				<p className="text-pretty mt-8 text-lg text-slate-900">{user.bio}</p>
+				{/* 🐨 
+					1. Replace the vertical padding level `16` on the `<footer>` element with a `margin-top` level `16`.
+				
+					2.Add a `slate-300` `border-top` of `1px` to the `<footer>`.
+				*/}
 				<footer className="py-16">
+					{/* 🐨 Delete all existing classes on the `<a>` element. Instead...
+
+							1. Make the link text `slate-900` and `semibold`.					
+
+							2. Add a horizontal padding of level `8` and a vertical padding of level `6`.
+
+							3. Set the `display` to `block`.
+
+							4. Set a white background, and change it to `slate-100` on hover. Add a `transition` class too!
+
+							5. Add a `border-bottom-radius` of `3xl`.
+					*/}
 					<a
 						href="#"
 						className="ring-ring inline-flex h-10 items-center justify-center rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white outline-none ring-offset-2 ring-offset-white transition-colors focus-within:ring-4 hover:bg-slate-900/80 focus-visible:ring-4 disabled:pointer-events-none disabled:opacity-50"

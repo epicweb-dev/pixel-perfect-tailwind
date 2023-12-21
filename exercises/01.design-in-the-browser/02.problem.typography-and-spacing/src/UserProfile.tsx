@@ -30,8 +30,7 @@ export default function UserProfile() {
 				</header>
 				{/* 🐨 
           1. Increase the margin top to level 8
-          2. Increase the horizontal padding to level 8
-          3. Make the font size lg
+          2. Make the font size lg
         */}
 				<p className="mt-2 text-xl text-slate-900">{user.bio}</p>
 				<footer className="py-16">
