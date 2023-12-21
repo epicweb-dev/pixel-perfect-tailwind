@@ -1,0 +1,51 @@
+# Clickable Footer Block
+
+The "Read notes" button is a little odd. Typically, buttons are reserved for actions — but here what we're styling is really just a link.
+
+There is nothing wrong with making links look like buttons — but we can do something more interesting here.
+
+Let's turn that "Read notes" link into a clickable footer section.
+
+## Footer wrapper
+
+🐨 **Replace** the vertical padding level `16` on the `footer` element with a `margin-top` level `16`.
+
+🐨 Add a `border-top` of `1px` to the `<footer>`.
+
+<callout-warning>
+**Oh no.**
+
+Our footer's `border-top` is not expanding to the full width of the card, because of the card container's `px-8` horizontal padding.
+</callout-warning>
+
+🐨 Remove the `px-8` class from the card container, and add it to both the `header` and `<p>{user.bio}</p>` elements instead.
+
+## Anchor tag
+
+🐨 Delete all existing classes on the `<a>Read notes</a>` element's `classNames` atrribute.
+
+🐨 Make the link text `slate-900` and `semibold`.
+
+🐨 Add horizontal padding of level `8` and vertical padding of level `6`.
+
+<callout-warning>
+**Why is the vertical padding not working?**
+
+This is because an `<a>` tag is an **inline** element, which will not honour certain block-level properties like padding.
+</callout-warning>
+
+🐨 Set the `display` to `block` on the anchor tag make the padding work correctly.
+
+## Overflowing issues
+
+🐨 Give the `<a>` element a white background, and change it to `slate-100` on hover. Add a `transition` class too!
+
+<callout-warning>
+**Uh oooh.**
+
+Our background is breaking through the rounded corners of the card.
+
+Adding the `overflow-hidden` class to the card element would fix this... but it will also clip the avarar image 😭
+</callout-warning>
+
+🐨 For now, add `3xl` `border-bottom-radius` to the `<a>` element, so the rounded corners match the ones from the card.

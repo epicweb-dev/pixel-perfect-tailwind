@@ -11,18 +11,17 @@ const user = {
 export default function UserProfile() {
 	return (
 		<div className="pb-20 pt-48">
-			{/* 🐨 Change the card's background color to white */}
-			<div className="mx-auto max-w-md overflow-auto rounded-3xl bg-slate-100 text-center shadow-lg ring-1 ring-slate-300">
-				{/* 
-					🐨 Wrap the `<header>` and `<p>{user.bio}</p>` below in a div. Then...
-
-						1. Move the `margin-top` and `border-top` classes into the new parent wrapper.
-
-						2. Add a top-to-bottom background-gradient to the parent wrapper. Make it fade to white at the bottom, and play around with the `from-` color to get a nice effect!
-
-						It's up to you here — but a `slate-200` color at 75% opacity looks pretty nice ✨
+			<div className="mx-auto max-w-md rounded-3xl bg-slate-100 text-center shadow-lg ring-1 ring-slate-300">
+				{/* 🐨 
+					1. Add a `margin-top` of level `32` to the `<header>`  
+					2. Add a `border-top` `1px` thick and of `slate-300` color to the `<header>`
 				*/}
-				<header className="mt-32 flex flex-col items-center border-t border-slate-300 px-8">
+
+				{/* 
+          🐨 Notice the top offset not working? This is due to collapsing margins.
+					You can fix it with the `overflow-auto` class on the card container.
+        */}
+				<header className="flex flex-col items-center border-slate-300 px-8">
 					<img
 						src={user.avatarUrl}
 						alt={`avatar for ${user.name}`}
@@ -35,9 +34,10 @@ export default function UserProfile() {
 					{user.bio}
 				</p>
 				<footer className="mt-16 border-t border-slate-300">
+					{/* 🐨 Remove the `rounded-b-3xl` class — it's no longer needed now! */}
 					<a
 						href="#"
-						className="block bg-white px-8 py-6 font-semibold text-slate-900 transition hover:bg-slate-100"
+						className="block rounded-b-3xl bg-white px-8 py-6 font-semibold text-slate-900 transition hover:bg-slate-100"
 					>
 						Read notes
 					</a>

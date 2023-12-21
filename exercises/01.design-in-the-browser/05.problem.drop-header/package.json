@@ -1,5 +1,5 @@
 {
-  "name": "exercises__sep__01.design-in-the-browser__sep__05.solution.card-footer",
+  "name": "exercises__sep__01.design-in-the-browser__sep__05.problem.drop-header",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -27,7 +27,7 @@
     "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.6",
-    "tailwindcss": "^3.3.5",
+    "tailwindcss": "^3.4.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }

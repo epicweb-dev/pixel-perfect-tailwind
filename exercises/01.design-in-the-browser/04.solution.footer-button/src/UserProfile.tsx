@@ -11,8 +11,8 @@ const user = {
 export default function UserProfile() {
 	return (
 		<div className="pb-20 pt-48">
-			<div className="mx-auto max-w-md rounded-3xl bg-slate-100 px-8 text-center shadow-lg ring-1 ring-slate-300">
-				<header className="flex flex-col items-center">
+			<div className="mx-auto max-w-md rounded-3xl bg-slate-100 text-center shadow-lg ring-1 ring-slate-300">
+				<header className="flex flex-col items-center px-8">
 					<img
 						src={user.avatarUrl}
 						alt={`avatar for ${user.name}`}
@@ -21,11 +21,13 @@ export default function UserProfile() {
 					<h1 className="mt-8 text-3xl text-slate-900">{user.name}</h1>
 					<p className="mt-2 text-slate-500">Joined on {user.registerDate}</p>
 				</header>
-				<p className="text-pretty mt-8 text-lg text-slate-900">{user.bio}</p>
-				<footer className="py-16">
+				<p className="text-pretty mt-8 px-8 text-lg text-slate-900">
+					{user.bio}
+				</p>
+				<footer className="mt-16 border-t border-slate-300">
 					<a
 						href="#"
-						className="ring-ring inline-flex h-10 items-center justify-center rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white outline-none ring-offset-2 ring-offset-white transition-colors focus-within:ring-4 hover:bg-slate-900/80 focus-visible:ring-4 disabled:pointer-events-none disabled:opacity-50"
+						className="block rounded-b-3xl bg-white px-8 py-6 font-semibold text-slate-900 transition hover:bg-slate-100"
 					>
 						Read notes
 					</a>

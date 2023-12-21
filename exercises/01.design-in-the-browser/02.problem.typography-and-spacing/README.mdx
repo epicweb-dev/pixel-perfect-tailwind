@@ -1,3 +1,49 @@
 # Refine Typography and Spacing
 
-<callout-warning>TODO</callout-warning>
+The typography on this card is a little "all over the place".
+
+The design is relying too much on font size and font weight to create hierarchy.
+
+Instead, we can use better spacing between elements.
+
+## Element grouping with "white space"
+
+We want to "collocate" the user name and joined date information. We can do that by adding separation from the other elements on the card!
+
+🐨 Add a `margin-top` level `8` to the `<h1>{user.name}</h1>` element.
+
+🐨 Add a `margin-top` level `8` to the `<p>{user.bio}</p>` element.
+
+<callout-info>
+	If you read that [margins are
+	bad](https://twitter.com/search?q=margins%20are%20bad%20CSS&src=typed_query&f=top)
+	and prefer to use the `gap` property to handle, you can! You'll just need to
+	restructure the HTML a little to make it happen.
+</callout-info>
+
+## Reigning-in the typography
+
+With this new breathing space between elements, we can tone down the font size and weight variation!
+
+🐨 Change the `<h1>{user.name}</h1>` element to:
+
+- a `font-size` of `3xl`
+- a `font-weight` of `400`.
+
+🐨 Change the `<p>{user.bio}</p>` element to:
+
+- a `font-size` of `lg`
+
+## Using color to influence hierarchy
+
+We can play with text color and contrast to further dial-in the content hierarchy on the card.
+
+🐨 Change the `<p>{user.registerDate}</p>` to the `slate-500` text color.
+
+## Avoiding orphan words in the bio
+
+Something that will upset many designers is to see a paragraph end up with a single word on the last line. It's called an "orphan".
+
+The `text-wrap: pretty` CSS property — added to Tailwind CSS v3.4 — makes sure this never happens!
+
+🐨 Add the `text-pretty` class to the `<p>{user.bio}</p>` element.
