@@ -41,10 +41,76 @@
       "path": "exercises/01.design-in-the-browser/06.solution.aesthetic-touches"
     },
     {
-      "path": "exercises/02.figma-to-code/09.problem.tba"
+      "path": "exercises/02.figma-to-code/01.problem.html-markup"
     },
     {
-      "path": "exercises/02.figma-to-code/09.solution.tba"
+      "path": "exercises/02.figma-to-code/01.solution.html-markup"
+    },
+    {
+      "path": "exercises/02.figma-to-code/02.problem.custom-font"
+    },
+    {
+      "path": "exercises/02.figma-to-code/02.solution.custom-font"
+    },
+    {
+      "path": "exercises/02.figma-to-code/03.problem.page-layout"
+    },
+    {
+      "path": "exercises/02.figma-to-code/03.solution.page-layout"
+    },
+    {
+      "path": "exercises/02.figma-to-code/04.problem.text-styles"
+    },
+    {
+      "path": "exercises/02.figma-to-code/04.solution.text-styles"
+    },
+    {
+      "path": "exercises/02.figma-to-code/05.problem.logo-list-styles"
+    },
+    {
+      "path": "exercises/02.figma-to-code/05.solution.logo-list-styles"
+    },
+    {
+      "path": "exercises/02.figma-to-code/06.problem.small-and-medium-breakpoints-adjustments"
+    },
+    {
+      "path": "exercises/02.figma-to-code/06.solution.small-and-medium-breakpoints-adjustments"
+    },
+    {
+      "path": "exercises/02.figma-to-code/07.problem.desktop-layout"
+    },
+    {
+      "path": "exercises/02.figma-to-code/07.solution.desktop-layout"
+    },
+    {
+      "path": "exercises/02.figma-to-code/08.problem.logo-grid"
+    },
+    {
+      "path": "exercises/02.figma-to-code/08.solution.logo-grid"
+    },
+    {
+      "path": "exercises/02.figma-to-code/09.problem.grid-placement"
+    },
+    {
+      "path": "exercises/02.figma-to-code/09.solution.grid-placement"
+    },
+    {
+      "path": "exercises/02.figma-to-code/10.problem.enter-animations"
+    },
+    {
+      "path": "exercises/02.figma-to-code/10.solution.enter-animations"
+    },
+    {
+      "path": "exercises/02.figma-to-code/11.problem.responsive-animations"
+    },
+    {
+      "path": "exercises/02.figma-to-code/11.solution.responsive-animations"
+    },
+    {
+      "path": "exercises/02.figma-to-code/12.problem.stagger-reveal"
+    },
+    {
+      "path": "exercises/02.figma-to-code/12.solution.stagger-reveal"
     },
     {
       "path": "exercises/04.creative-coding/01.problem.unstyled-markup"
