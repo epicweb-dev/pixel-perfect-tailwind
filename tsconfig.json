@@ -41,76 +41,154 @@
       "path": "exercises/01.design-in-the-browser/06.solution.aesthetic-touches"
     },
     {
-      "path": "exercises/02.figma-to-code/01.problem.html-markup"
+      "path": "exercises/02.figma-to-code-part-1/01.problem.html-markup"
     },
     {
-      "path": "exercises/02.figma-to-code/01.solution.html-markup"
+      "path": "exercises/02.figma-to-code-part-1/01.solution.html-markup"
     },
     {
-      "path": "exercises/02.figma-to-code/02.problem.custom-font"
+      "path": "exercises/02.figma-to-code-part-1/02.problem.custom-font"
     },
     {
-      "path": "exercises/02.figma-to-code/02.solution.custom-font"
+      "path": "exercises/02.figma-to-code-part-1/02.solution.custom-font"
     },
     {
-      "path": "exercises/02.figma-to-code/03.problem.page-layout"
+      "path": "exercises/02.figma-to-code-part-1/03.problem.page-layout"
     },
     {
-      "path": "exercises/02.figma-to-code/03.solution.page-layout"
+      "path": "exercises/02.figma-to-code-part-1/03.solution.page-layout"
     },
     {
-      "path": "exercises/02.figma-to-code/04.problem.text-styles"
+      "path": "exercises/02.figma-to-code-part-1/04.problem.text-styles"
     },
     {
-      "path": "exercises/02.figma-to-code/04.solution.text-styles"
+      "path": "exercises/02.figma-to-code-part-1/04.solution.text-styles"
     },
     {
-      "path": "exercises/02.figma-to-code/05.problem.logo-list-styles"
+      "path": "exercises/02.figma-to-code-part-1/05.problem.logo-list-styles"
     },
     {
-      "path": "exercises/02.figma-to-code/05.solution.logo-list-styles"
+      "path": "exercises/02.figma-to-code-part-1/05.solution.logo-list-styles"
     },
     {
-      "path": "exercises/02.figma-to-code/06.problem.sm-and-md-screens"
+      "path": "exercises/02.figma-to-code-part-1/06.problem.sm-and-md-screens"
     },
     {
-      "path": "exercises/02.figma-to-code/06.solution.sm-and-md-screens"
+      "path": "exercises/02.figma-to-code-part-1/06.solution.sm-and-md-screens"
     },
     {
-      "path": "exercises/02.figma-to-code/07.problem.desktop-layout"
+      "path": "exercises/02.figma-to-code-part-1/07.problem.desktop-layout"
     },
     {
-      "path": "exercises/02.figma-to-code/07.solution.desktop-layout"
+      "path": "exercises/02.figma-to-code-part-1/07.solution.desktop-layout"
     },
     {
-      "path": "exercises/02.figma-to-code/08.problem.logo-grid"
+      "path": "exercises/02.figma-to-code-part-1/08.problem.logo-grid"
     },
     {
-      "path": "exercises/02.figma-to-code/08.solution.logo-grid"
+      "path": "exercises/02.figma-to-code-part-1/08.solution.logo-grid"
     },
     {
-      "path": "exercises/02.figma-to-code/09.problem.grid-placement"
+      "path": "exercises/02.figma-to-code-part-1/09.problem.grid-placement"
     },
     {
-      "path": "exercises/02.figma-to-code/09.solution.grid-placement"
+      "path": "exercises/02.figma-to-code-part-1/09.solution.grid-placement"
     },
     {
-      "path": "exercises/02.figma-to-code/10.problem.enter-animations"
+      "path": "exercises/02.figma-to-code-part-1/10.problem.enter-animations"
     },
     {
-      "path": "exercises/02.figma-to-code/10.solution.enter-animations"
+      "path": "exercises/02.figma-to-code-part-1/10.solution.enter-animations"
     },
     {
-      "path": "exercises/02.figma-to-code/11.problem.responsive-animations"
+      "path": "exercises/02.figma-to-code-part-1/11.problem.responsive-animations"
     },
     {
-      "path": "exercises/02.figma-to-code/11.solution.responsive-animations"
+      "path": "exercises/02.figma-to-code-part-1/11.solution.responsive-animations"
     },
     {
-      "path": "exercises/02.figma-to-code/12.problem.stagger-reveal"
+      "path": "exercises/02.figma-to-code-part-1/12.problem.stagger-reveal"
     },
     {
-      "path": "exercises/02.figma-to-code/12.solution.stagger-reveal"
+      "path": "exercises/02.figma-to-code-part-1/12.solution.stagger-reveal"
+    },
+    {
+      "path": "exercises/02.figma-to-code-part-1/13.problem.bonus"
+    },
+    {
+      "path": "exercises/02.figma-to-code-part-1/13.solution.bonus"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/01.problem.html-markup"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/01.solution.html-markup"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/02.problem.custom-font"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/02.solution.custom-font"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/03.problem.page-layout"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/03.solution.page-layout"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/04.problem.text-styles"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/04.solution.text-styles"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/05.problem.logo-list-styles"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/05.solution.logo-list-styles"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/06.problem.sm-and-md-screens"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/06.solution.sm-and-md-screens"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/07.problem.desktop-layout"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/07.solution.desktop-layout"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/08.problem.logo-grid"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/08.solution.logo-grid"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/09.problem.grid-placement"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/09.solution.grid-placement"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/10.problem.enter-animations"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/10.solution.enter-animations"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/11.problem.responsive-animations"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/11.solution.responsive-animations"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/12.problem.stagger-reveal"
+    },
+    {
+      "path": "exercises/03.figma-to-code-part-2/12.solution.stagger-reveal"
     },
     {
       "path": "exercises/04.creative-coding/01.problem.unstyled-markup"
@@ -138,84 +216,6 @@
     },
     {
       "path": "exercises/04.creative-coding/10.problem.iphone-cards"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/01.problem.unstyled-markup"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/01.solution.unstyled-markup"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/02.problem.custom-font"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/02.solution.custom-font"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/03.problem.background"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/03.solution.background"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/04.problem.card-styles"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/04.solution.card-styles"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/05.problem.centering-content"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/05.solution.centering-content"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/06.problem.image-styles"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/06.solution.image-styles"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/07.problem.content-styles"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/07.solution.content-styles"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/08.problem.text-styles"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/08.solution.text-styles"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/09.problem.button-styles"
-    },
-    {
-      "path": "exercises/102.figma-to-code-part-1/09.solution.button-styles"
-    },
-    {
-      "path": "exercises/103.figma-to-code-part-2/01.problem.layout-changes"
-    },
-    {
-      "path": "exercises/103.figma-to-code-part-2/01.solution.layout-changes"
-    },
-    {
-      "path": "exercises/103.figma-to-code-part-2/02.problem.image-and-content-alignment"
-    },
-    {
-      "path": "exercises/103.figma-to-code-part-2/02.solution.image-and-content-alignment"
-    },
-    {
-      "path": "exercises/103.figma-to-code-part-2/03.problem.stacked-cards"
-    },
-    {
-      "path": "exercises/103.figma-to-code-part-2/03.solution.stacked-cards"
-    },
-    {
-      "path": "exercises/103.figma-to-code-part-2/04.problem.final-polish"
-    },
-    {
-      "path": "exercises/103.figma-to-code-part-2/04.solution.final-polish"
     }
   ]
 }
