@@ -26,16 +26,22 @@ const rowClasses: Record<(typeof logos)[number]['row'], string> = {
 export default function App() {
 	return (
 		<div className="grid min-h-screen place-items-center">
-			<div className="grid place-items-center gap-16 px-4 py-16 xl:grid-cols-2 xl:gap-24">
+			<div className="grid place-items-center gap-12 px-4 py-16 sm:gap-16 xl:grid-cols-[auto,1fr] xl:gap-24">
 				<div className="flex max-w-md flex-col items-center text-center xl:order-2 xl:items-start xl:text-left">
-					<EpicStackLogo className="size-20 text-slate-900 xl:-mt-4" />
-					<h1 className="mt-8 text-4xl font-medium text-slate-900 md:text-5xl xl:mt-4 xl:text-6xl">
-						<a href="https://www.epicweb.dev/stack">The Epic Stack</a>
+					<EpicStackLogo className="size-20" />
+					<h1 className="sm:text-4.5xl lg:text-5.5xl mt-6 text-4xl font-medium md:mt-8 md:text-5xl">
+						The <span className="text-highlight">Epic</span> Stack
 					</h1>
-					<p className="mt-6 text-xl/7 text-slate-600 xl:mt-8 xl:text-xl/6 xl:leading-10">
+					<p className="mt-4 text-slate-600 sm:text-lg md:mt-6 lg:text-xl">
 						Check the{' '}
 						<a
-							className="underline hover:no-underline"
+							/*
+								🐨 Add a class to remove the underline on hover.
+
+								Replace the default focus outline with 
+								a 'highlight' color 2px focus ring.
+							*/
+							className="text-black underline"
 							href={GETTING_STARTED_URL}
 						>
 							Getting Started guide
@@ -51,9 +57,9 @@ export default function App() {
 						>
 							<a
 								href={logo.href}
-								className="grid size-20 place-items-center rounded-2xl bg-violet-100 p-4 transition hover:-rotate-6 hover:bg-violet-200 sm:size-24"
+								className="bg-highlight/[7%] grid size-20 place-items-center rounded-2xl p-4 text-4xl sm:size-24"
 							>
-								<img src={logo.src} alt="" className="w-16" />
+								<img src={logo.src} alt="" />
 							</a>
 						</li>
 					))}

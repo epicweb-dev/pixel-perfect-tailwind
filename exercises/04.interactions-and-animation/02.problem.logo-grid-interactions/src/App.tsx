@@ -51,11 +51,12 @@ export default function App() {
 						>
 							<a
 								href={logo.href}
-								className={clsx(
-									'bg-highlight/[7%] hover:bg-highlight/10 grid size-20 place-items-center rounded-2xl p-4 text-4xl transition hover:-rotate-6 sm:size-24',
-									// Focus styles
-									'focus:ring-highlight focus:outline-none focus:ring-2 focus:ring-offset-2',
-								)}
+								/* 
+									🐨 Add the hover and focus styles here. Make sure you cover:
+									- rotation and background color opacity changes
+									- focus ring & ring offset
+								*/
+								className="bg-highlight/[7%] grid size-20 place-items-center rounded-2xl p-4 text-4xl sm:size-24"
 							>
 								<img src={logo.src} alt="" />
 							</a>
