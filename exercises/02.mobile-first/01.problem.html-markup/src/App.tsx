@@ -1,12 +1,21 @@
-import { EpicStackLogo, logos } from './logos/logos'
-
+/* 
+	🧝‍♀️ I've stored the GETTING_STARTED_URL for you. You'll 
+	need it for the 'href' attribute of the link tag.
+*/
 const GETTING_STARTED_URL =
 	'https://github.com/epicweb-dev/epic-stack/blob/main/docs/getting-started.md'
 
 export default function App() {
 	return (
 		<>
-			{/* 🐨 Add the <EpicStackLogo with a width and height of level 20 */}
+			{/*
+				 🐨 Import the { EpicStackLogo } from the './logos/logos.tsx' file. Render it with a width and height of level 20
+			*/}
+
+			{/* 
+				💰 You can use the 'size-*' utilities to set an 
+				equal width and height in a single class! 
+			*/}
 
 			{/* 🐨 Add an `h1` tag that says "The Epic Stack" */}
 
@@ -17,7 +26,8 @@ export default function App() {
 			*/}
 
 			{/* 
-				🐨 
+				🐨 Import the { logos } from the './logos/logos.tsx' file.
+				
 				1.Add an `ul` for the logos list.
 				2. Iterate over the `logos` array and render an `li` for each logo.
 				3. Each `li` should have an `a` with an `href` attribute set to the logo's `href`.

@@ -6,7 +6,7 @@ const GETTING_STARTED_URL =
 export default function App() {
 	return (
 		<div className="grid min-h-screen place-items-center">
-			<div className="grid place-items-center gap-16 px-4 py-16 xl:grid-cols-2">
+			<div className="grid place-items-center gap-12 px-4 py-16">
 				<div>
 					<EpicStackLogo className="size-20" />
 					<h1>The Epic Stack</h1>

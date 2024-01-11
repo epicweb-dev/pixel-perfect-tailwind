@@ -47,70 +47,76 @@
       "path": "exercises/02.mobile-first/04.solution.logo-list"
     },
     {
-      "path": "exercises/02.mobile-first/05.problem.breakpoint-changes"
+      "path": "exercises/03.responsive-design/01.problem.responsive-typography"
     },
     {
-      "path": "exercises/02.mobile-first/05.solution.breakpoint-changes"
+      "path": "exercises/03.responsive-design/01.solution.responsive-typography"
     },
     {
-      "path": "exercises/03.desktop-grid/01.problem.side-by-side-layout"
+      "path": "exercises/03.responsive-design/02.problem.responsive-spacing"
     },
     {
-      "path": "exercises/03.desktop-grid/01.solution.side-by-side-layout"
+      "path": "exercises/03.responsive-design/02.solution.responsive-spacing"
     },
     {
-      "path": "exercises/03.desktop-grid/02.problem.logo-grid"
+      "path": "exercises/03.responsive-design/03.problem.side-by-side-layout"
     },
     {
-      "path": "exercises/03.desktop-grid/02.solution.logo-grid"
+      "path": "exercises/03.responsive-design/03.solution.side-by-side-layout"
     },
     {
-      "path": "exercises/03.desktop-grid/03.problem.art-directed-placement"
+      "path": "exercises/03.responsive-design/04.problem.logo-grid"
     },
     {
-      "path": "exercises/03.desktop-grid/03.solution.art-directed-placement"
+      "path": "exercises/03.responsive-design/04.solution.logo-grid"
     },
     {
-      "path": "exercises/04.interactions-and-animation/01.problem.text-interactions"
+      "path": "exercises/04.art-directed-grid/01.problem.art-directed-placement"
     },
     {
-      "path": "exercises/04.interactions-and-animation/01.solution.text-interactions"
+      "path": "exercises/04.art-directed-grid/01.solution.art-directed-placement"
     },
     {
-      "path": "exercises/04.interactions-and-animation/02.problem.logo-grid-interactions"
+      "path": "exercises/05.interactions-and-animation/01.problem.text-interactions"
     },
     {
-      "path": "exercises/04.interactions-and-animation/02.solution.logo-grid-interactions"
+      "path": "exercises/05.interactions-and-animation/01.solution.text-interactions"
     },
     {
-      "path": "exercises/04.interactions-and-animation/03.problem.enter-animations"
+      "path": "exercises/05.interactions-and-animation/02.problem.logo-grid-interactions"
     },
     {
-      "path": "exercises/04.interactions-and-animation/03.solution.enter-animations"
+      "path": "exercises/05.interactions-and-animation/02.solution.logo-grid-interactions"
     },
     {
-      "path": "exercises/04.interactions-and-animation/04.problem.responsive-animations"
+      "path": "exercises/05.interactions-and-animation/03.problem.enter-animations"
     },
     {
-      "path": "exercises/04.interactions-and-animation/04.solution.responsive-animations"
+      "path": "exercises/05.interactions-and-animation/03.solution.enter-animations"
     },
     {
-      "path": "exercises/04.interactions-and-animation/05.problem.roll-reveal"
+      "path": "exercises/05.interactions-and-animation/04.problem.responsive-animations"
     },
     {
-      "path": "exercises/04.interactions-and-animation/05.solution.roll-reveal"
+      "path": "exercises/05.interactions-and-animation/04.solution.responsive-animations"
     },
     {
-      "path": "exercises/04.interactions-and-animation/06.problem.logo-stagger-reveal"
+      "path": "exercises/05.interactions-and-animation/05.problem.roll-reveal"
     },
     {
-      "path": "exercises/04.interactions-and-animation/06.solution.logo-stagger-reveal"
+      "path": "exercises/05.interactions-and-animation/05.solution.roll-reveal"
     },
     {
-      "path": "exercises/04.interactions-and-animation/07.problem.text-delay-adjustment"
+      "path": "exercises/05.interactions-and-animation/06.problem.logo-stagger-reveal"
     },
     {
-      "path": "exercises/04.interactions-and-animation/07.solution.text-delay-adjustment"
+      "path": "exercises/05.interactions-and-animation/06.solution.logo-stagger-reveal"
+    },
+    {
+      "path": "exercises/05.interactions-and-animation/07.problem.text-delay-adjustment"
+    },
+    {
+      "path": "exercises/05.interactions-and-animation/07.solution.text-delay-adjustment"
     }
   ]
 }
