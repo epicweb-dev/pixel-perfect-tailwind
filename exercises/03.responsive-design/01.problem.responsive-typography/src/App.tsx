@@ -1,8 +1,5 @@
 import { EpicStackLogo, logos } from './logos/logos'
 
-const GETTING_STARTED_URL =
-	'https://github.com/epicweb-dev/epic-stack/blob/main/docs/getting-started.md'
-
 /*
 	🐨 Look at the SM, MD and LG screen sizes in the Figma design.
 	Pay close attention to the **typography**.
@@ -28,7 +25,7 @@ export default function App() {
 					{/* 👀 */}
 					<p className="mt-4 text-slate-600">
 						Check the{' '}
-						<a className="text-black underline" href={GETTING_STARTED_URL}>
+						<a className="text-black underline" href="#">
 							Getting Started guide
 						</a>{' '}
 						file for how to get your project off the ground!

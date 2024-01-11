@@ -1,8 +1,5 @@
 import { EpicStackLogo, logos } from './logos/logos'
 
-const GETTING_STARTED_URL =
-	'https://github.com/epicweb-dev/epic-stack/blob/main/docs/getting-started.md'
-
 /*
 	👩‍🔬 I've created this "mini clsx" helper function that 
 	lets you combine multiple class strings together.
@@ -48,7 +45,7 @@ export default function App() {
 					</h1>
 					<p className="mt-4 text-slate-600 sm:text-lg md:mt-6 lg:text-xl">
 						Check the{' '}
-						<a className="text-black underline" href={GETTING_STARTED_URL}>
+						<a className="text-black underline" href="#">
 							Getting Started guide
 						</a>{' '}
 						file for how to get your project off the ground!

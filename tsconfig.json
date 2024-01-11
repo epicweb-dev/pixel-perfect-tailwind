@@ -5,18 +5,6 @@
   ],
   "references": [
     {
-      "path": "exercises/01.preparing-for-the-build/01.problem.first-look"
-    },
-    {
-      "path": "exercises/01.preparing-for-the-build/01.solution.first-look"
-    },
-    {
-      "path": "exercises/01.preparing-for-the-build/02.problem.figma-primer"
-    },
-    {
-      "path": "exercises/01.preparing-for-the-build/02.solution.figma-primer"
-    },
-    {
       "path": "exercises/01.preparing-for-the-build/03.problem.tailwind-theme-customisation"
     },
     {

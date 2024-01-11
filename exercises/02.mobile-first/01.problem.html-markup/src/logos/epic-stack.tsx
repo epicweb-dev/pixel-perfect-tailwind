@@ -1,3 +1,8 @@
+/*
+	🧝‍♀️ I've prepared the Epic Stack logo as a React component for you.
+	You can pass it Tailwind classNames to style it!
+*/
+
 export function EpicStackLogo({ className = '' }) {
 	return (
 		<svg

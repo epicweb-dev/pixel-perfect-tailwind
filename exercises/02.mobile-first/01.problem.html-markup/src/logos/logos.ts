@@ -22,6 +22,10 @@ import zod from './zod.svg'
 
 export { EpicStackLogo } from './epic-stack'
 
+/*
+	🧝‍♀️ I've prepared this list of Epic Stack logos, 
+	so you can display them on the page design.
+*/
 export const logos = [
 	{
 		src: remix,

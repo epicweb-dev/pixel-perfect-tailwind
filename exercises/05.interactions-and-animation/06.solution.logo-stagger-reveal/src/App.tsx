@@ -1,8 +1,5 @@
 import { EpicStackLogo, logos } from './logos/logos'
 
-const GETTING_STARTED_URL =
-	'https://github.com/epicweb-dev/epic-stack/blob/main/docs/getting-started.md'
-
 function clsx(...classes: string[]) {
 	return classes.filter(Boolean).join(' ')
 }
@@ -57,7 +54,7 @@ export default function App() {
 						Check the{' '}
 						<a
 							className="focus:ring-highlight text-black underline hover:no-underline focus:outline-none focus:ring-2"
-							href={GETTING_STARTED_URL}
+							href="#"
 						>
 							Getting Started guide
 						</a>{' '}

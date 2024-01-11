@@ -1,30 +1,19 @@
-import { EpicStackLogo, logos } from './logos/logos'
+import resolveConfig from 'tailwindcss/resolveConfig'
+import tailwindConfig from '../tailwind.config'
 
-const GETTING_STARTED_URL =
-	'https://github.com/epicweb-dev/epic-stack/blob/main/docs/getting-started.md'
+const { theme } = resolveConfig(tailwindConfig)
 
 export default function App() {
 	return (
-		<div className="grid min-h-screen place-items-center">
-			<div className="grid place-items-center gap-16 px-4 py-16 xl:grid-cols-2">
-				<div>
-					<EpicStackLogo className="size-20" />
-					<h1>The Epic Stack</h1>
-					<p>
-						Check the <a href={GETTING_STARTED_URL}>Getting Started guide</a>{' '}
-						file for how to get your project off the ground!
-					</p>
-				</div>
-				<ul>
-					{logos.map(logo => (
-						<li key={logo.href}>
-							<a href={logo.href}>
-								<img src={logo.src} alt="" className="w-16" />
-							</a>
-						</li>
-					))}
-				</ul>
-			</div>
+		<div className="grid justify-start gap-8 p-8">
+			<h1 className="font-poppins text-2xl">
+				Let's build something{' '}
+				<span className="text-highlight font-bold">epic</span>!
+			</h1>
+
+			<pre className="rounded-xl bg-slate-100 px-6 py-4 font-semibold leading-relaxed text-slate-800 shadow">
+				{JSON.stringify(theme.screens, null, 2)}
+			</pre>
 		</div>
 	)
 }

@@ -1,8 +1,5 @@
 import { EpicStackLogo, logos } from './logos/logos'
 
-const GETTING_STARTED_URL =
-	'https://github.com/epicweb-dev/epic-stack/blob/main/docs/getting-started.md'
-
 export default function App() {
 	return (
 		<div className="grid min-h-screen place-items-center">
@@ -36,8 +33,8 @@ export default function App() {
 							🐨 Apply the correct text color and decoration to the link.
 							Don't worry about the hover state for now.
 						*/}
-						Check the <a href={GETTING_STARTED_URL}>Getting Started guide</a>{' '}
-						file for how to get your project off the ground!
+						Check the <a href="#">Getting Started guide</a> file for how to get
+						your project off the ground!
 					</p>
 				</div>
 				<ul>
