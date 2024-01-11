@@ -1,8 +1,8 @@
 {
-  "name": "unleash-the-designer-in-you",
+  "name": "figma-to-code",
   "private": true,
   "kcd-workshop": {
-    "title": "🚀 Unleash The Designer in You",
+    "title": "📐 Figma to Code Conversion",
     "githubRoot": "https://github.com/epicweb-dev/unleash-the-designer-in-you/blob/main"
   },
   "type": "module",
