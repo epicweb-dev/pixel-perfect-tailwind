@@ -22,6 +22,11 @@ import zod from './zod.svg'
 
 export { EpicStackLogo } from './epic-stack'
 
+/*
+	👩‍🔬 I've added a column and row property to each logo object. 
+	You'll need these to place the logos in the correrct 
+	position in the fancy art-directed grid!
+*/
 export const logos = [
 	{
 		src: remix,
