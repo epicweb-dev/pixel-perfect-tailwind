@@ -1,0 +1,33 @@
+# Structural Layout
+
+Before worrying about styling the text and logos, let's scaffold the structural layout of the page.
+
+We will need to wrap our entire markup inside two container divs.
+
+## Full-page container
+
+We need a wrapping div that:
+
+- has at minimum the full screen height (min-h-screen)
+- centers its children with a grid (grid place-items-center)
+
+🐨 Add the wrapping div to the markup.
+
+## Layout grid
+
+Inside our container, we need a common parent to both the logo list and the text content. It needs to:
+
+- be a grid (grid) that contains two children (cells)
+- have a gap (gap-12)
+- handle horizontal and verticall padding (see Figma)
+- center its children (place-items-center)
+
+🐨 Add the layout grid.
+
+## Text content container
+
+We need to group the logo, h1 and paragraph elements as a single "grid cell".
+
+With CSS Grid, we could technically skip this wrapper, but one extra div is not going to hurt anyone, nor be the performance bottleneck of our website.
+
+🐨 Wrap the Logo, h1 and paragraph in a common parent div.

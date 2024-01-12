@@ -28,9 +28,9 @@ export default function App() {
 					<p className="mt-4 text-slate-600 sm:text-lg lg:text-xl">
 						Check the{' '}
 						<a className="text-black underline" href="#">
-							Getting Started guide
+							Getting Started
 						</a>{' '}
-						file for how to get your project off the ground!
+						guide file for how to get your project off the ground!
 					</p>
 				</div>
 				{/* 👀 */}

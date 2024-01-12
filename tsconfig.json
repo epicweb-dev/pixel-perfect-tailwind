@@ -5,34 +5,34 @@
   ],
   "references": [
     {
-      "path": "exercises/01.preparing-for-the-build/03.problem.tailwind-theme-customisation"
+      "path": "exercises/01.preparing-for-the-build/01.problem.unstyled-markup"
     },
     {
-      "path": "exercises/01.preparing-for-the-build/03.solution.tailwind-theme-customisation"
+      "path": "exercises/01.preparing-for-the-build/01.solution.unstyled-markup"
     },
     {
-      "path": "exercises/02.mobile-first/01.problem.html-markup"
+      "path": "exercises/01.preparing-for-the-build/02.problem.tailwind-config"
     },
     {
-      "path": "exercises/02.mobile-first/01.solution.html-markup"
+      "path": "exercises/01.preparing-for-the-build/02.solution.tailwind-config"
     },
     {
-      "path": "exercises/02.mobile-first/02.problem.page-layout"
+      "path": "exercises/02.mobile-first/01.problem.structural-layout"
     },
     {
-      "path": "exercises/02.mobile-first/02.solution.page-layout"
+      "path": "exercises/02.mobile-first/01.solution.structural-layout"
     },
     {
-      "path": "exercises/02.mobile-first/03.problem.text-styles"
+      "path": "exercises/02.mobile-first/02.problem.text-styles"
     },
     {
-      "path": "exercises/02.mobile-first/03.solution.text-styles"
+      "path": "exercises/02.mobile-first/02.solution.text-styles"
     },
     {
-      "path": "exercises/02.mobile-first/04.problem.logo-list"
+      "path": "exercises/02.mobile-first/03.problem.logo-list"
     },
     {
-      "path": "exercises/02.mobile-first/04.solution.logo-list"
+      "path": "exercises/02.mobile-first/03.solution.logo-list"
     },
     {
       "path": "exercises/03.responsive-design/01.problem.responsive-typography"
@@ -59,52 +59,58 @@
       "path": "exercises/03.responsive-design/04.solution.logo-grid"
     },
     {
-      "path": "exercises/04.art-directed-grid/01.problem.art-directed-placement"
+      "path": "exercises/04.art-directed-grid/01.problem.logo-coordinates"
     },
     {
-      "path": "exercises/04.art-directed-grid/01.solution.art-directed-placement"
+      "path": "exercises/04.art-directed-grid/01.solution.logo-coordinates"
     },
     {
-      "path": "exercises/05.interactions-and-animation/01.problem.text-interactions"
+      "path": "exercises/04.art-directed-grid/02.problem.grid-class-composition"
     },
     {
-      "path": "exercises/05.interactions-and-animation/01.solution.text-interactions"
+      "path": "exercises/04.art-directed-grid/02.solution.grid-class-composition"
     },
     {
-      "path": "exercises/05.interactions-and-animation/02.problem.logo-grid-interactions"
+      "path": "exercises/05.interaction/01.problem.text-interactions"
     },
     {
-      "path": "exercises/05.interactions-and-animation/02.solution.logo-grid-interactions"
+      "path": "exercises/05.interaction/01.solution.text-interactions"
     },
     {
-      "path": "exercises/05.interactions-and-animation/03.problem.enter-animations"
+      "path": "exercises/05.interaction/02.problem.logo-grid-interactions"
     },
     {
-      "path": "exercises/05.interactions-and-animation/03.solution.enter-animations"
+      "path": "exercises/05.interaction/02.solution.logo-grid-interactions"
     },
     {
-      "path": "exercises/05.interactions-and-animation/04.problem.responsive-animations"
+      "path": "exercises/06.animation/01.problem.enter-animations"
     },
     {
-      "path": "exercises/05.interactions-and-animation/04.solution.responsive-animations"
+      "path": "exercises/06.animation/01.solution.enter-animations"
     },
     {
-      "path": "exercises/05.interactions-and-animation/05.problem.roll-reveal"
+      "path": "exercises/06.animation/02.problem.responsive-animations"
     },
     {
-      "path": "exercises/05.interactions-and-animation/05.solution.roll-reveal"
+      "path": "exercises/06.animation/02.solution.responsive-animations"
     },
     {
-      "path": "exercises/05.interactions-and-animation/06.problem.logo-stagger-reveal"
+      "path": "exercises/06.animation/03.problem.roll-reveal"
     },
     {
-      "path": "exercises/05.interactions-and-animation/06.solution.logo-stagger-reveal"
+      "path": "exercises/06.animation/03.solution.roll-reveal"
     },
     {
-      "path": "exercises/05.interactions-and-animation/07.problem.text-delay-adjustment"
+      "path": "exercises/06.animation/04.problem.logo-stagger-reveal"
     },
     {
-      "path": "exercises/05.interactions-and-animation/07.solution.text-delay-adjustment"
+      "path": "exercises/06.animation/04.solution.logo-stagger-reveal"
+    },
+    {
+      "path": "exercises/06.animation/05.problem.text-delay-adjustment"
+    },
+    {
+      "path": "exercises/06.animation/05.solution.text-delay-adjustment"
     }
   ]
 }
