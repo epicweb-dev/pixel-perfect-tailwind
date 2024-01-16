@@ -1,10 +1,33 @@
 # Mobile-First
 
-- Focus on the Mobile screen only in Figma
-- Tailwind's classes are mobile-first, and building UIs starting from the smallest screens makes it logical to override styles going up the breakpoints "chain".
+👨‍💼 We have 5 screen size to implement, but let's first focus solely on the mobile design in Figma.
 
-## What we'll cover
+🦉 Tailwind uses a [📜 mobile-first breakpoint system](https://tailwindcss.com/docs/responsive-design#working-mobile-first) by default, and prefixed utilities like `md:text-5xl` only take effect at the specified breakpoint _and above_. With that in mind, building designs for mobile screens first with Tailwind feels very natural. You don't _have_ to do it this way, but it certainly has advantages.
 
-- structural layout
-- text styles
-- logo tiles styles
+💰 Hot tip: While we're only building the mobile design, you should definitely _look_ at larger screens to see what the design is doing, and infer layout decisons based on that.
+
+## Page layout and content sections
+
+Understanding how the page content is laid out as a whole, across all screen sizes, is the key to a successful implementaiton.
+
+Before jumping into styling the heading, paragraph and list of logos, the first point of focus should be to work out the CSS layout mechanisms involved in this design.
+
+## Figma's auto layout feature
+
+A while back, Figma added great new tools which very much align with how developers think about layouts.
+
+The [auto layout](https://help.figma.com/hc/en-us/articles/5731482952599-Using-auto-layout) feature is a great example of that. It's basically the equivalent of Flexbox, and it completely transforms the way you create designs in Figma.
+
+🦉 If you haven't checked it out yet, Simon's ["Figma for Developers" tip](#) is a great quick overview of how powerful and transformative autolayout is.
+
+👨‍💼 Before jumping in this exercise, spend some time inspecting how the various screens are designed in the Figma file. Click on things and look for the "Auto layout" section in the right sidebar. You will learn a lot about the _intent_ of the designers.
+
+## Are you ready?
+
+👨‍💼 Here's our plan of attack in this exercise:
+
+1. Build the structural layout for our page
+2. Style the text content (logo, heading + paragraph) section
+3. Style the logo tiles section
+
+👨‍💼 Without further ado... let's jump in!
