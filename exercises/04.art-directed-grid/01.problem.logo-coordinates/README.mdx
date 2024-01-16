@@ -1,10 +1,25 @@
 # Logo Coordinates
 
-- like battleship
-- going to annotate our logos array with some grid placement information
+The logos in this art-directed grid have been meticulously placed in certain cells.
 
-Turning on the "grid lines" with the browser dev tools lets you imagine how to visualise those coordinates:
+We need a system to be able to place them in the same way. Almost like some sort of coordinate system.
+
+Remember playing battleship as a kid?
+
+We want that ability to define a specific grid cell by its column and row coordinates.
+
+## Grid lines
+
+Turns out such coordinate system exists in CSS Grid — those are called [📜 grid lines](https://developer.mozilla.org/en-US/docs/Glossary/Grid_Lines)!
+
+Most developer tools (Firefox, Chrome) let you "turn on" those grid lines, which is super useful to visualise the grid coordinates.
 
 ![](/grid-lines.png)
 
-🐨 Add a `column` and `row` property to each logo in the `logos` array.
+In the screenshot above, the Tailwind CSS logo is positioned in the **2nd column** (grid-line 2) and the **3rd row** (grid-line 3).
+
+## Assigning coordinates to each logo
+
+👨‍💼 Annotate each logo with the column and row numbers it should be positioned in to match the Figma design at the `xl` screen size.
+
+🐨 Add a `column` and `row` property to each logo in the `logos` array in <InlineFile file="src/logos/logos.ts" />.

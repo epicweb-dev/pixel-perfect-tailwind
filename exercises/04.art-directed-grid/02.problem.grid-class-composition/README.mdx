@@ -1,6 +1,62 @@
 # Grid Class Composition
 
-- JIT wants full class strings
-- gotta work around by creating lookup objects
-- Fill the TS lookup object with classes
-- compose the utilities together with clsx
+👨‍💼 Use the new logo coordinates to place the logos in the correct grid cells.
+
+## CSS Grid cell positioning
+
+💰 You can define what grid column or row an element should be positioned in with the [📜 grid-column-start](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start) and [📜 grid-row-start](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-start) CSS properties respectively.
+
+💰 Tailwind has utilities for [📜 col-start-\*](https://tailwindcss.com/docs/grid-column) and [📜 row-start-\*](https://tailwindcss.com/docs/grid-row)
+
+## Tailwind "on demand" classes and dynamic styles
+
+The Tailwind Just-in-Time engine, which generates CSS as you need it, [📜 expects to see entire class strings](https://tailwindcss.com/docs/content-configuration#class-detection-in-depth) in your template files.
+
+This means you unfortunately cannot use _dynamic_ classes like this:
+
+```tsx
+<div className={`col-start-${logo.column}`}></div>
+```
+
+As nice as it would be, the JIT engine won't recognise this, and as a result, no CSS will be generated.
+
+## Styles lookup directories
+
+🧝‍♀️ I've scaffolded out some "lookup" objects we'll use to map Tailwind Grid column and row classes in a way that plays nice with Tailwind's JIT engine:
+
+```ts
+const columnClasses: Record<(typeof logos)[number]['column'], string> = {}
+const rowClasses: Record<(typeof logos)[number]['row'], string> = {}
+```
+
+🦺 The two TypeScript 'Records' you see above ensure that the lookup objects have keys that match the possible values of the 'column' and 'row' properties on the 'logos' array.
+
+## Populating the lookup objects
+
+🐨 Add the required keys to the `columnClasses` object to satisfy the type checker.
+
+🐨 Add the required keys to the `rowClasses` object to satisfy the type checker.
+
+🐨 Map Tailwind classes to each possible `logo.column` and `logo.row` scenario.
+
+💰 Remember the `col-start-*` and `row-start-*` utilities I mentioned above? Yeah, these will work great here.
+
+## Composing class strings together
+
+🧝‍♀️ I've also created this "mini clsx" helper function that lets you combine multiple class strings together:
+
+```ts
+function clsx(...classes: string[]) {
+	return classes.filter(Boolean).join(' ')
+}
+```
+
+🧝‍♀️ Here's an example of how to use it:
+
+```tsx
+<div
+	className={clsx('some classes', 'more classnames', 'combined together')}
+/>
+```
+
+🐨 Compose the dynamic `column` class and `row` class on the `li` element, using the `clsx()` helper function.
