@@ -1,15 +1,18 @@
-<div>
-  <h1 align="center"><a href="https://www.epicweb.dev/workshops">Pixel Perfect Figma to Tailwind</a></h1>
-  <strong>
-    Become a better UI designer with Tailwind — intentionally or accidentally
-  </strong>
-  <p>You’re a developer tasked with converting visual designs to HTML and CSS.</p> 
-  <p>You’re a confident developer already familiar with Tailwind CSS, but you don’t necessarily perceive yourself as having a “good eye for design”.</p>
-  <p>You want to improve the quality and fidelity of your design implementations — getting as close as possible to “pixel perfect” conversions.</p>
-  <p>If you see yourself in this description… this workshop is definitely for you!</p>
-</div>
+# [Pixel Perfect Figma to Tailwind](https://www.epicweb.dev/workshops)
 
-<hr />
+Become a better UI designer with Tailwind — intentionally or accidentally
+
+You’re a developer tasked with converting visual designs to HTML and CSS.
+
+You’re a confident developer already familiar with Tailwind CSS, but you don’t
+necessarily perceive yourself as having a “good eye for design”.
+
+You want to improve the quality and fidelity of your design implementations —
+getting as close as possible to “pixel perfect” conversions.
+
+If you see yourself in this description… this workshop is definitely for you!
+
+---
 
 <div align="center">
   <a

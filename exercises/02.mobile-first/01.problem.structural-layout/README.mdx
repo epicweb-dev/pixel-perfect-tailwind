@@ -1,33 +1,33 @@
 # Structural Layout
 
-Before worrying about styling the text and logos, let's scaffold the structural layout of the page.
+Our markup needs to be wrapped in a couple of layout containers:
 
-We will need to wrap our entire markup inside two container divs.
+- a **full-page container** responsible for centering the whole design in the viewport
+- a **layout grid** that manages the positioning of our two main content sections: the logo list and the text content
 
 ## Full-page container
 
-We need a wrapping div that:
+🦉 Wrap the entire page markup in a `div` that has at minimum the **full-screen height**, and centers its children with a grid.
 
-- has at minimum the full screen height (min-h-screen)
-- centers its children with a grid (grid place-items-center)
-
-🐨 Add the wrapping div to the markup.
+💰 Check out the [📜 min-height](https://tailwindcss.com/docs/min-height)
+and [📜 Place-items (Grid)](https://tailwindcss.com/docs/place-items#center) Tailwind docs if needed!
 
 ## Layout grid
 
-Inside our container, we need a common parent to both the logo list and the text content. It needs to:
+🐨 Wrap the markup once again, to create another grid which will be the common parent to both the logo list and the text content.
 
-- be a grid (grid) that contains two children (cells)
-- have a gap (gap-12)
+👨‍💼 Here are some aspects of this wrapping inner `div` you should make sure are covered:
+
+- it's a `Grid` that contains two children (grid cells)
+- the `gap` should be set according to the Figma design
+- the horizontal and vertical padding should be set according to the Figma design
 - handle horizontal and verticall padding (see Figma)
-- center its children (place-items-center)
+- children should be centered on both axes
 
-🐨 Add the layout grid.
+💰 Just sharing the [📜 Place-items (Grid)](https://tailwindcss.com/docs/place-items#center) docs here once again 😉
 
-## Text content container
+## Grouping the logo, `h1` and paragraph
 
-We need to group the logo, h1 and paragraph elements as a single "grid cell".
+🦉 With CSS Grid, we could technically skip this wrapper, but one extra div is not going to hurt anyone, nor be the performance bottleneck of our website.
 
-With CSS Grid, we could technically skip this wrapper, but one extra div is not going to hurt anyone, nor be the performance bottleneck of our website.
-
-🐨 Wrap the Logo, h1 and paragraph in a common parent div.
+🐨 Wrap the Logo, h1 and paragraph in a common parent div, so they become one of the layout grid's two children.
