@@ -1,21 +1,21 @@
 # Preparing for the Build
 
-To make sure our project starts on the right foot, we'll go through a few steps to set up our project.
+Before putting our designer hat on, we need to take a few steps to make sure our project is set up for success.
 
-- **Write unstyled HTML**, so we have a working baseline. A document that makes sense, even if it was completely unstyled.
-- **Configure Tailwind**. Tailwind is already installed in our project, but we are going to do some customisations:
-- colors
-- breakpoints
-- typography
+## Writing unstyled HTML
 
-Remember: we're going for a high-fidelity build here. We want to be as "pixel perfect" as possible.
+We'll start by writing completely unstyled markup, so we have a working baseline. A document that makes sense, even if it was completely unstyled.
 
-And this starts by properly mapping our design tokens to the Tailwind theme.
+Technically, we'll be [📜 writing JSX](https://react.dev/learn/writing-markup-with-jsx).
 
-## Figma's Dev Mode
+But the output in the browser will be HTML.
 
-If you're not familiar with [Figma's Dev Mode](https://www.figma.com/dev-mode/), definitely take a look now.
+## Configuring the Tailwind theme
 
-As a developer, you probably want to spend most of your time in Dev Mode when converting a design to code.
+The Figma design uses some colors, fonts and breakpoints that are not part of the [📜 default Tailwind theme](https://tailwindcss.com/docs/theme).
 
-"Thinking in rectangles" — draw mental boxes around things, inspect how the designer built the thing in Figma (containers with padding, ...)
+We need to configure those.
+
+**Remember**: we're going for a "Pixel Perfect" recreation here.
+
+So let's sweat the details from the get go, and align our Tailwind theme with the _design decisions_ made in Figma.

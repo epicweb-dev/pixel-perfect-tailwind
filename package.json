@@ -1,8 +1,8 @@
 {
-  "name": "figma-to-code",
+  "name": "pixel-perfect-figma-to-tailwind",
   "private": true,
   "kcd-workshop": {
-    "title": "📐 Figma to Code Conversion",
+    "title": "📐 Pixel Perfect Figma to Tailwind",
     "githubRoot": "https://github.com/epicweb-dev/unleash-the-designer-in-you/blob/main"
   },
   "type": "module",
