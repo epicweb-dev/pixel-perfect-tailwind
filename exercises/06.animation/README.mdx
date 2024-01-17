@@ -1,12 +1,102 @@
 # Animation
 
-- "Enter" animations on page load
-- CSS animations
-- For advanced animations, libraries like GSAP or Framer Motion are incredible.
-- But here we can pull it off with CSS Keyframe animations
+Animations can bring life and personality to a website or application.
 
-- Simple "fade and slide" animations on Text
-- Change the direction on extra large screens
-- "Roll reveal" animation for the logo tiles
+It's really easy to over-do it though, so let's not get carried away.
 
-- The cherry on top will be the "logo stagger" effect. The design team will **love** you for that!
+We're going to add a simple touch of "enter" animation on elements when the page loads.
+
+## JavaScript animations
+
+If you dive into the world of web animations, it won't be long before you bump into libraries like [GSAP](https://gsap.com) or [Framer Motion](https://www.framer.com/motion).
+
+These are extremely powerful and allow you to create really advanced animations, like those you can see on the [Awwwards website](https://www.awwwards.com).
+
+There are also smaller footprint libraries like [Motion One](https://motion.dev), a fairly thin wrapper around the Web Animations API.
+
+With that said, we're going to use CSS to power our animations here. And as you'll see, CSS animations can take you surprisingly far.
+
+## CSS animations
+
+Animation sequences in CSS are defined using [📜 `@keyframes`](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations#defining_animation_sequence_using_keyframes).
+
+An animation is then defined using the [`animation`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation) shorthand property, or its sub-properties.
+
+💰 Make sure you look into the [📜 animation sub-properties](https://developer.mozilla.org/en-US/docs/Web/CSS/animation), as some of those will come handy in this exercise!
+
+### Defining `@keyframes`
+
+Here's an example of defining a simple "fade in" animation with `@keyframes`:
+
+```css
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+```
+
+The first keyframe (`from` — which can also be `0%`) defines the state of the element at the start of the animation.
+
+Th last keyframe (`to` — which can also be `100%`) defines the state of the element at the end of the animation.
+
+In the example above, the animation will start with the element at `opacity: 0`, and end with the element at `opacity: 1`.
+
+🦉 You can define many more intermediate keyframes — you're not limited to just the first (0%) and last (100%)!
+
+### Defining an `animation`
+
+To wire up our keyframes definition, we need to define an `animation` which references it.
+
+```css
+.animate-fade-in {
+	animation: fade-in 1s ease-in-out;
+}
+```
+
+The `fade-in` value here refers to the `@keyframes` definition we created earlier. The `.animate-fade-in` class will:
+
+- run the animation over 1 second (see [📜 animation-duration](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration))
+- use an `ease-in-out` [📜 timing function](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function).
+
+## Animations in Tailwind CSS
+
+Out of the box, Tailwind CSS comes with a few [📜 default CSS keyframe animations](https://tailwindcss.com/docs/animation) such as `animate-spin` or `animate-pulse`.
+
+You can [📜 define custom CSS animations](https://tailwindcss.com/docs/animation#customizing-your-theme) by configuring the `keyframes` and `animation` keys of your Tailwind theme.
+
+Here's what our `fade-in` example animation from above would look like in the Tailwind theme:
+
+```ts
+// tailwind.config.ts
+export default {
+  // ...
+  theme: {
+    extend: {
+      keyframes: {
+        'fade-in': {
+          from: { opacity: 0 },
+          to: { opacity: 1 },
+        },
+      },
+      animation: {
+        'fade-in': 'fade-in 1s ease-in-out',
+      },
+    },
+  }
+}
+```
+
+## Let's get to work
+
+In this exercise, you're going to configure custom CSS animations in Tailwind, and apply them to elements on the page we're implementing:
+
+- a fairly simple "fade-and-slide" animation for the text content section
+- a more evolved "roll reveal" animation for the logo tiles
+
+You'll also configure animation delays on different elements, and change the animation on the extra-large screen size and above.
+
+👨‍💼 The cherry on top will be the "logo stagger" effect. Oh, the design team will **love** you for that!
