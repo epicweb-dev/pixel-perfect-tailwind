@@ -30,7 +30,7 @@ export default {
 			},
 			animation: {
 				'slide-top': '0.3s slide-top ease-out backwards',
-				'slide-left': '0.3s slide-left ease-out inherit backwards',
+				'slide-left': '0.3s slide-left ease-out backwards',
 			},
 		},
 	},

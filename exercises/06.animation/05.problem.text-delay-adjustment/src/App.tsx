@@ -42,7 +42,7 @@ export default function App() {
 							// Animation
 							'animate-slide-top [animation-delay:0.3s]',
 							/* 
-								🐨 Change the 'animation-delay'to 0.8s at the 'xl' breakpoint
+								🐨 Increase the 'animation-delay' by half a second at the 'xl' breakpoint
 							*/
 							'xl:animate-slide-left xl:[animation-delay:0.3s]',
 						)}
@@ -55,7 +55,7 @@ export default function App() {
 							// Animation
 							'animate-slide-top [animation-delay:0.8s]',
 							/* 
-								🐨 Change the 'animation-delay'to 1s at the 'xl' breakpoint
+								🐨 Increase the 'animation-delay' by half a second at the 'xl' breakpoint
 							*/
 							'xl:animate-slide-left xl:[animation-delay:0.8s]',
 						)}

@@ -48,7 +48,7 @@ export default function App() {
 							'mt-4 text-slate-600 sm:text-lg md:mt-6 lg:text-xl',
 							// Animation
 							'animate-slide-top [animation-delay:0.8s]',
-							'xl:animate-slide-left xl:[animation-delay:1s]',
+							'xl:animate-slide-left xl:[animation-delay:1.3s]',
 						)}
 					>
 						Check the{' '}

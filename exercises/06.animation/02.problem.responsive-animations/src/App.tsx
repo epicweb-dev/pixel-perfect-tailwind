@@ -46,6 +46,7 @@ export default function App() {
 							'sm:text-4.5xl lg:text-5.5xl mt-6 text-4xl font-medium md:mt-8 md:text-5xl',
 							/* 
 								🐨 Add the 'animate-slide-left' classname at the 'xl' breakpoint.
+								Make sure the animation delay still works!
 							*/
 							'animate-slide-top [animation-delay:0.3s]',
 						)}
@@ -57,6 +58,7 @@ export default function App() {
 							'mt-4 text-slate-600 sm:text-lg md:mt-6 lg:text-xl',
 							/* 
 								🐨 Add the 'animate-slide-left' classname at the 'xl' breakpoint.
+								Make sure the animation delay still works!
 							*/
 							'animate-slide-top [animation-delay:0.8s]',
 						)}

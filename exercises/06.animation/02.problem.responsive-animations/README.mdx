@@ -12,6 +12,4 @@
 
 🐨 At the `xl` breakpoint, override the `slide-up` animations on the logo, `h1` and paragraph with the new `slide-left` animation.
 
-🦉 Looks like the `animation-delay` sub-property gets reset to its default value when applying the `xl:animate-slide-left` class.
-
-Unfortunately you cannot set its value to `inherit` directly in the shorthand `animation` syntax. Maybe setting it to `inherit` via an arbitrary value in the markup could do the trick?
+🦉 Looks like the `animation-delay` sub-property gets reset to its default value (`0s`) when applying the `xl:animate-slide-left` class. Make sure you redefine it at the `xl` breakpoint!
