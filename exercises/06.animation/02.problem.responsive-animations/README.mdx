@@ -1,3 +1,17 @@
 # Responsive Animations
 
-- Move from slide-top to slide-left
+👨‍💼 At the `xl` breakpoint, make the animations slide from the right instead of from the top.
+
+## Keyframes definition
+
+🐨 Create a new `slide-left` set of `keyframes`, which is just like the `slide-up` one, but with the `20px` translation happening on the `Y` axis.
+
+🐨 Create a new `animate-slide-left` utility so you can apply it to elements.
+
+## Animating elements
+
+🐨 At the `xl` breakpoint, override the `slide-up` animations on the logo, `h1` and paragraph with the new `slide-left` animation.
+
+🦉 Looks like the `animation-delay` sub-property gets reset to its default value when applying the `xl:animate-slide-left` class.
+
+Unfortunately you cannot set its value to `inherit` directly in the shorthand `animation` syntax. Maybe setting it to `inherit` via an arbitrary value in the markup could do the trick?

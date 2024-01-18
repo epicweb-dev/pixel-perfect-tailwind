@@ -33,9 +33,10 @@ export default {
 				},
 			},
 			animation: {
-				'roll-reveal': 'roll-reveal 0.4s cubic-bezier(.22,1.28,.54,.99)',
-				'slide-left': 'slide-left 0.3s ease-out',
-				'slide-top': 'slide-top 0.3s ease-out',
+				'roll-reveal':
+					'0.4s roll-reveal cubic-bezier(.22,1.28,.54,.99) backwards',
+				'slide-top': '0.3s slide-top ease-out backwards',
+				'slide-left': '0.3s slide-left ease-out backwards',
 			},
 		},
 	},

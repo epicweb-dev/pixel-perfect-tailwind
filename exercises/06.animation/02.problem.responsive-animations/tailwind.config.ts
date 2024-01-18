@@ -33,7 +33,7 @@ export default {
 					🐨 Add a 'slide-left' animation, which replicates the 'slide-top' 
 					animation, but with the 'slide-left' keyframe.
 				*/
-				'slide-top': 'slide-top 0.3s ease-out',
+				'slide-top': '0.3s slide-top ease-out backwards',
 			},
 		},
 	},

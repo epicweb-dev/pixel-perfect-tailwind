@@ -29,8 +29,8 @@ export default {
 				},
 			},
 			animation: {
-				'slide-left': 'slide-left 0.3s ease-out',
-				'slide-top': 'slide-top 0.3s ease-out',
+				'slide-top': '0.3s slide-top ease-out backwards',
+				'slide-left': '0.3s slide-left ease-out inherit backwards',
 			},
 		},
 	},

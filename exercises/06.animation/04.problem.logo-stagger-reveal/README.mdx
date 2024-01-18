@@ -1,3 +1,56 @@
 # Logo Stagger Reveal
 
-THIS IS THE BEST
+👨‍💼 Add a "stagger" effect to the logo tiles animation. The very first slide should animate immediately on page load, and every subsequent tile should have a delay **increasing with each tile**.
+
+👨‍💼 The duration of the delay between each tile is up to you. Try a few different values out!
+
+👨‍💼 If you feel uninspired, I personally think that `0.07s` work really well as an incremental delay.
+
+🐨 Add an `animation-delay` CSS property (do it inline with an arbitrary property).
+
+👨‍💼 Try implementing the stagger with the least possible amount of JavaScript. We're going for a CSS-based reveal stagger here!
+
+## Getting each tile's "rank" — some interesting facts
+
+It would be quite handy to have a way to know which "rank" each tile is in. For example, the first tile would be rank 1, the second tile would be rank 2, and so on.
+
+CSS is capable of knowing which `nth-child` an element inside a list is... so surely we should be able to access this information?
+
+Well... unfortunately, no. Not yet.
+
+Bummer — that would be really handy here!
+
+<callout-info>
+	Take a look at this [draft proposal from
+	2019](https://github.com/w3c/csswg-drafts/issues/4559) on the [CSS Working
+	Group](https://www.w3.org/Style/CSS/members.en.php3) by CSS legend [Adam
+	Argyle](https://twitter.com/argyleink).
+</callout-info>
+
+This would be extremely handy for our exact use case here!
+
+### CSS counters() function
+
+There is another rabbit hole to explore — [📜 CSS counters()](https://developer.mozilla.org/en-US/docs/Web/CSS/counters)
+
+Long story short — you cannot use those within a `calc()` CSS function, which is how we'd calculate our stagger delay.
+
+Oof! 😅
+
+### Using the `.map()` loop index
+
+I know, I know. Peter the Product Manager said to use as little JS as possible. Based on the info above, looks like borrowing the "rank" infor for each tile based on the loop index is... a good trade-off.
+
+The `Array.map()` function (which we already use to loop over the logos) has a second argument that is the index of the current item in the array:
+
+```ts
+logos.map((logo, index) => {
+  // index is the current index of the logo in the logos array
+})
+```
+
+💰 I'll let you use your imagination on how you can use that loop index to create a stagger. A few pointers:
+
+- You cannot create dynamic classes like `[animation-delay:${0.1 * index}s]` in Tailwind, due to [📜 the way the CSS from Tailwind is compiled](https://tailwindcss.com/docs/content-configuration#dynamic-class-names).
+- if you find a way to "pass" that index to CSS, you _can_ use it in a `calc()` function that looks something like `calc(0.1s * index)` 👀
+- you can use a `style` attribute to define a [📜 CSS variable](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties), which you can then... use in CSS!

@@ -29,16 +29,16 @@ export default function App() {
 						className={clsx(
 							'size-20',
 							// Animation
-							'animate-slide-top [animation-fill-mode:backwards]',
-							'xl:animate-slide-left xl:[animation-fill-mode:backwards]',
+							'animate-slide-top',
+							'xl:animate-slide-left',
 						)}
 					/>
 					<h1
 						className={clsx(
 							'sm:text-4.5xl lg:text-5.5xl mt-6 text-4xl font-medium md:mt-8 md:text-5xl',
 							// Animation
-							'animate-slide-top [animation-fill-mode:backwards] [animation-delay:0.3s]',
-							'xl:animate-slide-left xl:[animation-fill-mode:backwards] xl:[animation-delay:0.3s]',
+							'animate-slide-top [animation-delay:0.3s]',
+							'xl:animate-slide-left xl:[animation-delay:0.3s]',
 						)}
 					>
 						The <span className="text-highlight">Epic</span> Stack
@@ -47,8 +47,8 @@ export default function App() {
 						className={clsx(
 							'mt-4 text-slate-600 sm:text-lg md:mt-6 lg:text-xl',
 							// Animation
-							'animate-slide-top [animation-fill-mode:backwards] [animation-delay:0.8s]',
-							'xl:animate-slide-left xl:[animation-fill-mode:backwards] xl:[animation-delay:0.8s]',
+							'animate-slide-top [animation-delay:0.8s]',
+							'xl:animate-slide-left xl:[animation-delay:0.8s]',
 						)}
 					>
 						Check the{' '}
@@ -65,17 +65,24 @@ export default function App() {
 					{logos.map(logo => (
 						<li
 							/* 
-								🐨 Add a style attribute to this element and set the 
-								loop index value as a '--loop-index' CSS variable. 
+								🐨 Grab the `index` parameter from the `.map()` function above, and find a way to "pass" this index to CSS.
+
+								💰 Hint: you probably want to define a CSS variable (like `--loop-index`) and assign the `.map()` index to it ✨
 							*/
 							key={logo.href}
 							className={clsx(
 								columnClasses[logo.column],
 								rowClasses[logo.row],
-								'animate-roll-reveal [animation-fill-mode:backwards]',
+								'animate-roll-reveal',
 								/* 
 									🐨 Add an "animation-delay" (arbitrary property) classname. 
-									Increase the delay by 0.07s for each logo.
+									Increase the delay for each logo.
+
+									👨‍💼 The duration of the delay increase it up to you.
+									If you feel uninspired, I personally think that 
+									0.07s work really well.
+									
+									Also, make sure the delayed tiles don't show up before animating!
 								*/
 							)}
 						>

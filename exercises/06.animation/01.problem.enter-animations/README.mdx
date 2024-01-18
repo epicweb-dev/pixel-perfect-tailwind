@@ -1,3 +1,36 @@
 # Enter Animations
 
-// TODO
+👨‍💼 Make the logo, `h1` and paragraph fade in and slide from the bottom when the page loads.
+
+## Keyframes definition
+
+🐨 Create a `slide-up` `keyframes` definition in the <InlineFile file="tailwind.config.ts" />. It should:
+
+- start at `0%` opacity and translated down (Y axis) by `20px`
+- end up at `100%` opacity and back to its normal position.
+
+## Animation utilities
+
+🐨 Create a `slide-up` `animation` in the Tailwind config. It should:
+
+- use the `slide-up` `keyframes`
+- animate over a duration of `0.3s`
+- use the `ease-out` timing function
+
+## Animating elements
+
+🐨 Animate the logo, `h1` and paragraph using the new `slide-up` animation utilies you have just created.
+
+### Animation delay
+
+👨‍💼 The **logo** should start animating immediately when the page loads.
+
+👨‍💼 The `h1` tag should wait `0.3s` before starting to animate.
+
+👨‍💼 The **paragraph** should wait `0.8s` before starting to animate.
+
+💰 Use an [📜 arbitrary property](https://tailwindcss.com/docs/adding-custom-styles#arbitrary-properties) to target the [📜 `CSS property responsible to delay the animation`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay).
+
+🦉 You might notice your delayed animations look wonky. The elements show up in their final position until the delay occurs, and then they go through the `slide-up` animation. You should look into the `[📜 animation-fill-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode) CSS property to work around that — it can be defined directly in the `animation` in the Tailwind theme.
+
+👨‍💼 You got this! Rememeber, you'll be considered a hero to the eyes of the design team if you can pull this off 💫

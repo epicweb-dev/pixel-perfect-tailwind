@@ -35,6 +35,12 @@ export default {
 				
 				Create a 'slide-top' animation. It should use the 'slide-top' 
 				keyframe, last 0.3s, and use the 'ease-out' timing function.
+
+				🦉 You also want to define the 'animation-fill-mode' CSS property to the appropriate value (see my link to the `animation-fill-mode` MDN docs in the README)
+
+				🦉 You can define the animation like so:
+
+				animation: [duration] [keyframes-name] [timing-function] [fill-mode]
 			*/
 		},
 	},

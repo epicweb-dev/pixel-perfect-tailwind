@@ -37,9 +37,8 @@ export default function App() {
 							'size-20',
 							/* 
 								🐨 Add the 'animate-slide-left' classname at the 'xl' breakpoint.
-								Make sure the animation-fill-mode still works properly!
 							*/
-							'animate-slide-top [animation-fill-mode:backwards]',
+							'animate-slide-top',
 						)}
 					/>
 					<h1
@@ -47,9 +46,8 @@ export default function App() {
 							'sm:text-4.5xl lg:text-5.5xl mt-6 text-4xl font-medium md:mt-8 md:text-5xl',
 							/* 
 								🐨 Add the 'animate-slide-left' classname at the 'xl' breakpoint.
-								Make sure the animation-fill-mode and delay still work properly!
 							*/
-							'animate-slide-top [animation-fill-mode:backwards] [animation-delay:0.3s]',
+							'animate-slide-top [animation-delay:0.3s]',
 						)}
 					>
 						The <span className="text-highlight">Epic</span> Stack
@@ -59,9 +57,8 @@ export default function App() {
 							'mt-4 text-slate-600 sm:text-lg md:mt-6 lg:text-xl',
 							/* 
 								🐨 Add the 'animate-slide-left' classname at the 'xl' breakpoint.
-								Make sure the animation-fill-mode and delay still work properly!
 							*/
-							'animate-slide-top [animation-fill-mode:backwards] [animation-delay:0.8s]',
+							'animate-slide-top [animation-delay:0.8s]',
 						)}
 					>
 						Check the{' '}

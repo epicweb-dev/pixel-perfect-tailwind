@@ -27,18 +27,12 @@ export default function App() {
 				<div className="flex max-w-md flex-col items-center text-center xl:order-2 xl:items-start xl:text-left">
 					{/* 
 						🐨 Add the 'slide-top' classname to the EpicStackLogo component. 
-						
-						Use an arbitrary property to set the 'animation-fill-mode' 
-						CSS property to the appropriate value.
 					*/}
 					<EpicStackLogo className="size-20" />
 
 					{/* 
 						🐨 Add the 'slide-top' classname to the h1. 
-						
-						Use an arbitrary property to set the 'animation-fill-mode' 
-						CSS property to the appropriate value, and an 
-						'animation-delay' of 0.3s.
+						Use an arbitrary property to set an 'animation-delay' of 0.3s.
 					*/}
 					<h1 className="sm:text-4.5xl lg:text-5.5xl mt-6 text-4xl font-medium md:mt-8 md:text-5xl">
 						The <span className="text-highlight">Epic</span> Stack
@@ -46,10 +40,7 @@ export default function App() {
 
 					{/* 
 						🐨 Add the 'slide-top' classname to the paragraph. 
-						
-						Use an arbitrary property to set the 'animation-fill-mode' 
-						CSS property to the appropriate value, and an 
-						'animation-delay' of 0.8s.
+						Use an arbitrary property to set an 'animation-delay' of 0.8s.
 					*/}
 					<p className="mt-4 text-slate-600 sm:text-lg md:mt-6 lg:text-xl">
 						Check the{' '}

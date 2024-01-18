@@ -1,3 +1,39 @@
 # Roll Reveal
 
-Logo roll reveal
+👨‍💼 Time to animate the logo tiles. We wanna go a bit fancy here, to really wow the user as we reveal our art-directed logo grid.
+
+👨‍💼 Make the logo tiles "roll", scale-up and fade in over `0.4` seconds.
+
+## Keyframes definition
+
+🐨 Add one more `keyframes` set in the Tailwind theme. This one should start with...
+
+- a **rotation** of `12` degrees
+- a **scale** of `0%`
+- an **opacity** of `0%`
+
+...and end with:
+
+- a **rotation** of `0` degrees
+- a **scale** of `100%`
+- an **opacity** of `100%`
+
+## Custom timing function
+
+🐨 Add a 'roll-reveal' animation to the Tailwind theme. It should use the 'roll-reveal' `keyframes` you just created, and animate once over 0.4 seconds.
+
+👨‍💼 Have some fun with the easing function. There is no right or wrong answer here (well, don't quote me on that when speaking to the designers).
+
+### Cubic-Bézier curves
+
+Instead of basic transition timing functions like `linear` or `ease-in`, uou can use the [`📜 cubic-bezier()`](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function#using_the_cubic-bezier_function) CSS function to create bespoke [📜 Bézier curve](https://developer.mozilla.org/en-US/docs/Glossary/Bezier_curve) easings for your animations.
+
+💰 It's very hard to "visualise" what the `cubic-bezier()` function does, but luckily for us, there are some great online tools to help. [cubic-bezier.com](https://cubic-bezier.com) is a fantastic example!
+
+💰 Use any value you want here. If you don't feel inspired, here's a suggestion:
+
+`cubic-bezier(.22,1.28,.54,.99)` — here's [what it looks like](https://cubic-bezier.com/#.22,1.28,.54,.99).
+
+## Animating the logo tiles
+
+🐨 Add the `roll-reveal` animation to the logo tiles.
