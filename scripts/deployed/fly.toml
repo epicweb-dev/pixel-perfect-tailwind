@@ -1,4 +1,4 @@
-app = "epicweb-dev-unleash-the-designer-in-you"
+app = "epicweb-dev-pixel-perfect-figma-to-tailwind"
 primary_region = "sjc"
 kill_signal = "SIGINT"
 kill_timeout = 5

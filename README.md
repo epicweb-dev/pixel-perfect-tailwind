@@ -17,7 +17,7 @@ If you see yourself in this description… this workshop is definitely for you!
 <div align="center">
   <a
     alt="Epic Web logo with the words Deployed Version"
-    href="https://epicweb-dev-unleash-the-designer-in-you.fly.dev/"
+    href="https://epicweb-dev-pixel-perfect-figma-to-tailwind.fly.dev/"
   >
     <img
       width="300px"
@@ -83,8 +83,8 @@ network connection before running the setup and grab a snack.
 Follow these steps to get this set up:
 
 ```sh nonumber
-git clone --depth 1 https://github.com/epicweb-dev/unleash-the-designer-in-you.git
-cd unleash-the-designer-in-you
+git clone --depth 1 https://github.com/epicweb-dev/pixel-perfect-figma-to-tailwind.git
+cd pixel-perfect-figma-to-tailwind
 npm run setup
 ```
 
@@ -102,13 +102,13 @@ Learn all about the workshop app on the
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
 [git]: https://git-scm.com/
-[build-badge]: https://img.shields.io/github/actions/workflow/status/epicweb-dev/unleash-the-designer-in-you/validate.yml?branch=main&logo=github&style=flat-square
-[build]: https://github.com/epicweb-dev/unleash-the-designer-in-you/actions?query=workflow%3Avalidate
+[build-badge]: https://img.shields.io/github/actions/workflow/status/epicweb-dev/pixel-perfect-figma-to-tailwind/validate.yml?branch=main&logo=github&style=flat-square
+[build]: https://github.com/epicweb-dev/pixel-perfect-figma-to-tailwind/actions?query=workflow%3Avalidate
 [license-badge]: https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
-[license]: https://github.com/epicweb-dev/unleash-the-designer-in-you/blob/main/LICENSE
+[license]: https://github.com/epicweb-dev/pixel-perfect-figma-to-tailwind/blob/main/LICENSE
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]: https://kentcdodds.com/conduct
 [win-path]: https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/
 [mac-path]: http://stackoverflow.com/a/24322978/971592
-[issue]: https://github.com/epicweb-dev/unleash-the-designer-in-you/issues/new
+[issue]: https://github.com/epicweb-dev/pixel-perfect-figma-to-tailwind/issues/new
 <!-- prettier-ignore-end -->
