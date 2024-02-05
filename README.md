@@ -36,18 +36,26 @@ If you see yourself in this description… this workshop is definitely for you!
 
 ## Prerequisites
 
-- Some
-  [experience with JavaScript](https://kentcdodds.com/blog/javascript-to-know-for-react)
-- Some
-  [experience with React](https://egghead.io/courses/the-beginner-s-guide-to-react)
-- Some [experience with Tailwind CSS](https://tailwindcss.com)
+### Some experience with Tailwind CSS
 
-## Pre-workshop Resources
+This workshop is intended for developers who are already familiar with Tailwind
+CSS.
 
-Here are some resources you can read before taking the workshop to get you up to
-speed on some of the tools and concepts we'll be covering:
+If you’re not, great free resources to quickly up-skill are the official
+[Tailwind docs](https://tailwindcss/com) and
+[YouTube channel](https://youtube.com/tailwindlabs). The
+[From Zero to Production](https://www.youtube.com/playlist?list=PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0)
+video series in particular is a great introduction to Tailwind, even if designed
+for Tailwind v2.
 
-- [Tailwind CSS Documentation](https://tailwindcss.com)
+#### Some experience with JavaScript
+
+Basic familiarity with
+[JavaScript](https://kentcdodds.com/blog/javascript-to-know-for-react) and
+[React](https://egghead.io/courses/the-beginner-s-guide-to-react) is also
+beneficial, since we’ll be using a React + Vite app to build our UI.
+
+Again, not critical as the workshops stays firmly focused on CSS.
 
 ## System Requirements
 
