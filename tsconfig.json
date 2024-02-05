@@ -111,6 +111,12 @@
     },
     {
       "path": "exercises/06.animation/05.solution.text-delay-adjustment"
+    },
+    {
+      "path": "exercises/07.grid-inception/01.problem.sub-grid"
+    },
+    {
+      "path": "exercises/07.grid-inception/01.solution.sub-grid"
     }
   ]
 }
