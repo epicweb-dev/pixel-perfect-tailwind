@@ -91,7 +91,7 @@ network connection before running the setup and grab a snack.
 Follow these steps to get this set up:
 
 ```sh nonumber
-git clone --depth 1 https://github.com/epicweb-dev/pixel-perfect-figma-to-tailwind.git
+git clone --depth 1 https://github.com/epicweb-dev/simon-workshop-pixel-perfect-figma-to-tailwind.git
 cd pixel-perfect-figma-to-tailwind
 npm run setup
 ```
