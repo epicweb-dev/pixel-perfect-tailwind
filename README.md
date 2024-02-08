@@ -99,13 +99,6 @@ npm run setup
 If you experience errors here, please open [an issue][issue] with as many
 details as you can offer.
 
-## The Workshop App
-
-Learn all about the workshop app on the
-[Epic Web Getting Started Guide](https://www.epicweb.dev/get-started).
-
-[![Kent with the workshop app in the background](https://github-production-user-asset-6210df.s3.amazonaws.com/1500684/280407082-0e012138-e01d-45d5-abf2-86ffe5d03c69.png)](https://www.epicweb.dev/get-started)
-
 <!-- prettier-ignore-start -->
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
