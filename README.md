@@ -1,4 +1,4 @@
-# [Pixel Perfect Figma to Tailwind](https://www.epicweb.dev/workshops)
+# [Pixel Perfect Tailwind](https://www.epicweb.dev/workshops)
 
 Become a better UI designer with Tailwind — intentionally or accidentally
 
