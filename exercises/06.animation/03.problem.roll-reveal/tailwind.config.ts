@@ -1,5 +1,13 @@
 import { type Config } from 'tailwindcss'
 
+/*
+	🧝‍♀️ I've added the 'open-props' npm package and 
+	imported a series of easing timing functions.
+	
+	You can use one of these to fine-tune the "roll-reveal" animation below!
+*/
+import easings from 'open-props/src/easing'
+
 export default {
 	content: ['./index.html', './src/**/*.{ts,tsx,js,jsx}'],
 	theme: {
@@ -20,7 +28,7 @@ export default {
 			},
 			keyframes: {
 				/* 
-					🐨 Create a 'roll-reveal' keyframe object.
+					🐨 1. Create a 'roll-reveal' keyframe object.
 
 					It should start with...
 					- a rotation of 12 degrees
@@ -31,6 +39,15 @@ export default {
 					- a rotation of 0 degrees
 					- a scale of 100%
 					- an opacity of 100%
+				*/
+
+				/*
+					👨‍💼 We want to respect the user's system preferences for reduced motion,
+					so let's also create an "alternative", simpler reveal. 
+
+					🐨 2. Create a 'fade-in' keyframes defition. 
+					
+					It should start at 0% opacity and end at 100% opacity.
 				*/
 				'slide-left': {
 					from: { transform: 'translateX(20px)', opacity: '0' },
@@ -43,13 +60,18 @@ export default {
 			},
 			animation: {
 				/* 
-					🐨 Add a 'roll-reveal' animation. It should use the 'roll-reveal' keyframe
+					🐨 1. Add a 'roll-reveal' animation. It should use the 'roll-reveal' keyframe
 					you just created, and animate once over 0.4 seconds.
 
-					Have fun with the easing function! 
-					https://cubic-bezier.com is a great resource ✨
+					Try your own easgins (https://cubic-bezier.com is a great resource ✨), 
+					or have fun playing with Open Props' easing function we've imported! 
 					
-					In the solution, we use cubic-bezier(.22,1.28,.54,.99)
+					In the solution, we use the `--ease-spring-2` easing function.
+				*/
+
+				/* 
+					🐨 2. Add a 'fade-in' animation. It should use the 'fade-in' keyframe
+					you just created, and animate once over 0.4 seconds.
 				*/
 				'slide-top': '0.3s slide-top ease-out backwards',
 				'slide-left': '0.3s slide-left ease-out backwards',

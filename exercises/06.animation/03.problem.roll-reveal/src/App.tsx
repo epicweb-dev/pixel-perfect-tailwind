@@ -66,7 +66,12 @@ export default function App() {
 						<li
 							key={logo.href}
 							/* 
-								🐨 Add the 'animate-roll-reveal' class to this element.
+								🐨 Add the reveal animation class to this element.
+
+								Only use `roll-reveal` if the user has not requested reduced motion.
+								Otherwise, use `fade-in`.
+
+								💰 Look into the `motion-safe` modifier in Tailwind for this!
 							*/
 							className={clsx(columnClasses[logo.column], rowClasses[logo.row])}
 						>

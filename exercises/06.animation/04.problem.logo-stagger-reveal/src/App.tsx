@@ -73,16 +73,16 @@ export default function App() {
 							className={clsx(
 								columnClasses[logo.column],
 								rowClasses[logo.row],
-								'animate-roll-reveal',
+								'animate-fade-in motion-safe:animate-roll-reveal',
 								/* 
-									🐨 Add an "animation-delay" (arbitrary property) classname. 
-									Increase the delay for each logo.
-
-									👨‍💼 The duration of the delay increase it up to you.
-									If you feel uninspired, I personally think that 
-									0.07s work really well.
+									🐨 If the user has not requested reduced motion, add 
+									an "animation-delay" (arbitrary property) classname. 
 									
-									Also, make sure the delayed tiles don't show up before animating!
+									Increase the delay for each logo — experiment with different values!
+
+									👨‍💼 
+									If you feel uninspired, I personally think 
+									that `0.07s` works really well.
 								*/
 							)}
 						>

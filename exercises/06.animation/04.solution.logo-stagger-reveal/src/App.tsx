@@ -69,8 +69,8 @@ export default function App() {
 							className={clsx(
 								columnClasses[logo.column],
 								rowClasses[logo.row],
-								'animate-roll-reveal',
-								'[animation-delay:calc(0.07s*var(--loop-index))]',
+								'animate-fade-in motion-safe:animate-roll-reveal',
+								'motion-safe:[animation-delay:calc(0.07s*var(--loop-index))]',
 							)}
 						>
 							<a
