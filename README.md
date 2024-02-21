@@ -76,6 +76,19 @@ If you have trouble with any of these, learn more about the PATH environment
 variable and how to fix it here for [windows][win-path] or
 [mac/linux][mac-path].
 
+## A Figma account
+
+We'll be implementing a design from a Figma file, and it's critical to have the
+ability to "inspect" the design in Figma.
+
+[Link to the the Figma file](https://www.figma.com/file/P7JAJ2NX6SOw72iTa8eyjl/Pixel-Perfect-Tailwind?type=design&node-id=0%3A1&mode=design&t=WVR4uy4alsTwrVTc-1)
+
+Without an account, you can only "see" the design, but not get any measurements
+and info when hovering over layers.
+
+Create a free account, and make sure you can see the side panel and click on
+things to inspect them.
+
 ## Setup
 
 This is a pretty large project (it's actually many apps in one) so it can take
