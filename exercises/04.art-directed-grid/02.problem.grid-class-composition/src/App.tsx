@@ -11,12 +11,16 @@ import { EpicStackLogo, logos } from './logos/logos'
 	have keys that match the possible values of the 'column' and 'row'
 	properties on the 'logos' array.
 */
+
+// @ts-expect-error
 const columnClasses: Record<(typeof logos)[number]['column'], string> = {
 	/*
 		🐨 Add the required keys to satisfy the type checker, and assign 
 		the correct Tailwind Grid column classes to each key.
 	*/
 }
+
+// @ts-expect-error
 const rowClasses: Record<(typeof logos)[number]['row'], string> = {
 	/*
 		🐨 Add the required keys to satisfy the type checker, and assign 
@@ -29,6 +33,7 @@ const rowClasses: Record<(typeof logos)[number]['row'], string> = {
 	lets you combine multiple class strings together.
 */
 
+// @ts-expect-error
 function clsx(...classes: string[]) {
 	return classes.filter(Boolean).join(' ')
 }
