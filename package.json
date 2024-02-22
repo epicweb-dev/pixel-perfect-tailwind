@@ -1,9 +1,9 @@
 {
-  "name": "pixel-perfect-figma-to-tailwind",
+  "name": "pixel-perfect-tailwind",
   "private": true,
   "kcd-workshop": {
-    "title": "📐 Pixel Perfect Figma to Tailwind",
-    "githubRoot": "https://github.com/epicweb-dev/simon-workshop-pixel-perfect-figma-to-tailwind/blob/main"
+    "title": "📐 Pixel Perfect Tailwind",
+    "githubRoot": "https://github.com/epicweb-dev/pixel-perfect-tailwind/blob/main"
   },
   "type": "module",
   "scripts": {

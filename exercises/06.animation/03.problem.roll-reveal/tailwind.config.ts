@@ -6,8 +6,6 @@ import { type Config } from 'tailwindcss'
 	
 	You can use one of these to fine-tune the "roll-reveal" animation below!
 */
-
-// @ts-expect-error
 import easings from 'open-props/src/easing'
 
 export default {
