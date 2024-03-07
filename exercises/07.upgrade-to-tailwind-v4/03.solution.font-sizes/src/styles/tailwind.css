@@ -5,4 +5,9 @@
 	--breakpoint-lg: 976px;
 	--color-highlight: #6202ff;
 	--font-family-poppins: 'Poppins', sans-serif;
+
+	--font-size-4_5xl: 2.625rem;
+	--font-size-4_5xl--line-height: 1.15;
+	--font-size-5_5xl: 3.375rem;
+	--font-size-5_5xl--line-height: 1;
 }

@@ -125,6 +125,12 @@
       "path": "exercises/07.upgrade-to-tailwind-v4/02.solution.css-theme-config"
     },
     {
+      "path": "exercises/07.upgrade-to-tailwind-v4/03.problem.font-sizes"
+    },
+    {
+      "path": "exercises/07.upgrade-to-tailwind-v4/03.solution.font-sizes"
+    },
+    {
       "path": "exercises/07.upgrade-to-tailwind-v4/06.solution.vite-plugin"
     },
     {

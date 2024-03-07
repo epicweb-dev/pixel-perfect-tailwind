@@ -5,4 +5,9 @@
 	--breakpoint-lg: 976px;
 	--color-highlight: #6202ff;
 	--font-family-poppins: 'Poppins', sans-serif;
+
+	/* 
+		🐨 Define CSS variables for the custom 4.5xl 
+		and 5.5xl font-sizes
+	*/
 }

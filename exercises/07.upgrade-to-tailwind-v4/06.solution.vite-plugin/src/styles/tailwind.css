@@ -2,8 +2,8 @@
 @import 'open-props/easings';
 
 @theme {
-	--screen-sm: 520px;
-	--screen-lg: 976px;
+	--breakpoint-sm: 520px;
+	--breakpoint-lg: 976px;
 
 	--color-highlight: #6202ff;
 

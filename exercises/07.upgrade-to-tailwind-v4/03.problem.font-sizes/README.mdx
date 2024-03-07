@@ -1,0 +1,34 @@
+# Font Sizes Definition
+
+👨‍💼 You're doing great — keep the conversion going, this time with the `fontSize` part of the Tailwind config.
+
+## Composing font-size and line-height
+
+👨‍💼 As you know, the way we've extended font sizes in the Tailwind config defines both a `font-size` and a `line-height` for each size. Make sure we support both these in the CSS config too!
+
+💰 To compose a `line-height` with a `font-size`, you can create a `--` _modifier_ CSS variable for a given font size.
+
+For example:
+
+```css
+@theme {
+	--font-size-woof: 1.25rem;
+	--font-size-woof--line-height: 1.5;
+}
+```
+
+The `--line-height` appended to the `woof` font size variable will compose that line-height with the font size in the generated CSS.
+
+## Working around the `.` character in variable names
+
+👨‍💼 Whoops — we've named our custom font sizes `4.5xl` and `5.5xl`, but I'm told that a period (`.`) is not a valid characted for a CSS variable name.
+
+👨‍💼 In other words, `--font-size-4.5xl` won't work.
+
+💰 Tailwind lets you work around this by using an underscore (`_`) instead of a period (`.`) in the variable name. So, `--font-size-4_5xl` will work.
+
+🦉 This may change in the stable version, but it works right now 🤙
+
+## You've got this!
+
+🐨 Port over the custom `fontSize` definitions to <InlineFile file="src/styles/tailwind.css" />.
