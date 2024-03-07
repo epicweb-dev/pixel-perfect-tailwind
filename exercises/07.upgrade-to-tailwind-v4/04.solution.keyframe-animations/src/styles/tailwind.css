@@ -4,23 +4,14 @@
 @theme {
 	--breakpoint-sm: 520px;
 	--breakpoint-lg: 976px;
-
 	--color-highlight: #6202ff;
-
 	--font-family-poppins: 'Poppins', sans-serif;
 
-	/* Font sizes combined with line-heights */
 	--font-size-4_5xl: 2.625rem;
 	--font-size-4_5xl--line-height: 1.15;
 	--font-size-5_5xl: 3.375rem;
 	--font-size-5_5xl--line-height: 1;
 
-	--animate-roll-reveal: 0.4s roll-reveal var(--ease-spring-2) backwards;
-	--animate-fade-in: 0.4s fade-in ease-out backwards;
-	--animate-slide-top: 0.3s slide-top ease-out backwards;
-	--animate-slide-left: 0.3s slide-left ease-out backwards;
-
-	/* Keyframes */
 	@keyframes roll-reveal {
 		from {
 			transform: rotate(12deg) scale(0.01);
@@ -62,4 +53,9 @@
 			opacity: 1;
 		}
 	}
+
+	--animate-roll-reveal: 0.4s roll-reveal var(--ease-spring-2) backwards;
+	--animate-fade-in: 0.4s fade-in ease-out backwards;
+	--animate-slide-top: 0.3s slide-top ease-out backwards;
+	--animate-slide-left: 0.3s slide-left ease-out backwards;
 }

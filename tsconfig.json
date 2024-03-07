@@ -131,7 +131,10 @@
       "path": "exercises/07.upgrade-to-tailwind-v4/03.solution.font-sizes"
     },
     {
-      "path": "exercises/07.upgrade-to-tailwind-v4/06.solution.vite-plugin"
+      "path": "exercises/07.upgrade-to-tailwind-v4/04.problem.keyframe-animations"
+    },
+    {
+      "path": "exercises/07.upgrade-to-tailwind-v4/04.solution.keyframe-animations"
     },
     {
       "path": "exercises/08.subgrid-alignment/01.problem.sub-grid"

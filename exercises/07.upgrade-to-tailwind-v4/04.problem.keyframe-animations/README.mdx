@@ -1,0 +1,76 @@
+# Keyframe Animations
+
+👨‍💼 Final stop: the keyframe animations. Make the awesome roll-reveal and other animations work once again!
+
+## Defining keyframes
+
+The custom `keyframes` are not defined via CSS variables — they're just regular CSS `keyframes` definitions inside the `@theme`:
+
+```css
+@theme {
+	@keyframes fade-in {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+}
+```
+
+<callout-warning>
+	Heads up, you're probably going to try define a keyframe to: `transform:
+	rotate(12deg) scale(0);` When you do that, I noticed that the generated CSS
+	output for that frame will be `transform: matrix(0,0,0,0,0,0);`. This breaks
+	the rotation animation.
+</callout-warning>
+
+<callout-success>
+	You can work around that by setting the `scale()` transform to anything else
+	than zero. `scale(0.01)` does the trick!
+</callout-success>
+
+## Defining animations
+
+You can extend `animations` in the Tailwind theme with `--animate-{name}` CSS variables.
+
+## Spring easing from Open Props
+
+In the Tailwind config, we're importing `easing` props from Open Props:
+
+```ts filename="tailwind.config.ts"
+import easings from 'open-props/src/easing'
+```
+
+Those are used in the `roll-reveal` animation:
+
+```ts filename='tailwind.config.ts'
+animation: {
+ 'roll-reveal': `0.4s roll-reveal ${easings['--ease-spring-2']} backwards`,
+}
+```
+
+This JS interpolation will clearly not work in CSS. Luckily we can also import the Open Props `easings` from the CSS...
+
+```css filename='src/styles/tailwind.css'
+@import 'open-props/easings';
+```
+
+... and use the `spring-2` easing with `var(--ease-spring-2)`.
+
+## Time to finish this off!
+
+🐨 Port over the `keyframes` and `animation` custom definitions to the <InlineFile file="src/styles/tailwind.css" /> file.
+
+---
+
+## One more thing...
+
+👨‍💼 When you've done everything, go ahead and delete the <InlineFile file='tailwind.config.ts' />.
+
+👨‍💼 Yup, get rid of the whole thing. We don't need it.
+
+🦉 That's right — no need to configure the `content` array or anything. Everything just works, with our CSS file as the only entry point.
+
+🦉 How coooo-whoool is this?

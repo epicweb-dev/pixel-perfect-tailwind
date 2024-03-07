@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+/* 
+		🐨 Import the `easings` CSS variables
+		from 'open-props/easings'
+*/
+
+@theme {
+	--breakpoint-sm: 520px;
+	--breakpoint-lg: 976px;
+	--color-highlight: #6202ff;
+	--font-family-poppins: 'Poppins', sans-serif;
+
+	--font-size-4_5xl: 2.625rem;
+	--font-size-4_5xl--line-height: 1.15;
+	--font-size-5_5xl: 3.375rem;
+	--font-size-5_5xl--line-height: 1;
+
+	/* 
+		🐨 1. Define `keyframes` for the `roll-reveal`, `fade-in`, 
+		`slide-left` and `slide-top` animations.
+
+		Remember: those are defined as regular 
+		`@keyframes` CSS declarations.
+*/
+
+	/* 
+		🐨 2. Define `--animate-{name}` CSS variables 
+		for all four animations.
+*/
+}
