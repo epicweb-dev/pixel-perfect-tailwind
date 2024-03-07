@@ -1,12 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-
-// 🐨 Import the `@tailwindcss/vite` plugin
+import tailwindcss from '@tailwindcss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	// 🐨 Register the Taliwind plugin in the `plugins` array
-	plugins: [react()],
+	plugins: [react(), tailwindcss()],
 	server: {
 		port: Number(process.env.PORT) || 3000,
 	},
