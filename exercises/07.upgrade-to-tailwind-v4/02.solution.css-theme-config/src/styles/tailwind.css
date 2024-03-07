@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+@theme {
+	--screen-sm: 520px;
+	--screen-lg: 976px;
+	--color-highlight: #6202ff;
+	--font-family-poppins: 'Poppins', sans-serif;
+}

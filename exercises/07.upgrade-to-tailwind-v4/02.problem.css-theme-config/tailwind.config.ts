@@ -6,6 +6,10 @@ export default {
 	content: ['./index.html', './src/**/*.{ts,tsx,js,jsx}'],
 	theme: {
 		extend: {
+			/* 
+				🐨 Transfer over the `screens`, `colors` and `fontFamily`
+				theme extensions to the `src/styles/tailwind.css file
+			*/
 			screens: {
 				sm: '520px',
 				lg: '976px',
@@ -16,6 +20,11 @@ export default {
 			fontFamily: {
 				poppins: ['Poppins', 'sans-serif'],
 			},
+
+			/* 
+				👨‍💼 Stop right there. Don't worry about the other 
+				customisations for now — we'll do them later.
+			*/
 			fontSize: {
 				'4.5xl': ['2.625rem', '1.15'],
 				'5.5xl': ['3.375rem', '1'],

@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+/* 
+  🐨 Use the `@theme` block to define CSS variables for 
+  the custom  screen sizes, colors and font-families 
+  defined in the `tailwind.config.ts` file.
+*/

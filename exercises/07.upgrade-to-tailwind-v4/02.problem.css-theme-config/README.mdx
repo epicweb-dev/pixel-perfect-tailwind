@@ -1,0 +1,43 @@
+# Theme Customisation in CSS
+
+👨‍💼 Our app is _sort of_ working, but there are obviously some styles missing.
+
+🦉 It's important to understand that the `tailwind.config.ts` file is completely ignored in Tailwind CSS v4. It will eventually be supported for the stable release, but right now, it's being ignored.
+
+👨‍💼 Ahaaa, **that's** why! Well, we need to port our theme customisations to the CSS file, then!
+
+## Customise the Tailwind theme in CSS
+
+Tailwind CSS v4 lets you extend (or override) the default theme by using CSS variables directly in your CSS.
+
+💰 Let me show you an example for the custom `highlight` color we had defined in the Tailwind config.
+
+What looks like this in `tailwind.config.ts`...
+
+```ts
+theme: {
+ extend: {
+  colors: {
+   highlight: '#6202FF',
+  }
+ }
+}
+```
+
+... can be defined like that in the `styles.css` file:
+
+```css
+@theme {
+	--color-highlight: #6202ff;
+}
+```
+
+💰 The Intellisense should give you suggestions for available CSS variables names in the theme.
+
+- `--color-{name}` will let you define a color value.
+- `--screen-{name}` will let you define a screen size value.
+- `--font-family-{name}` will let you define a font-family value.
+
+## Let's get to work
+
+🐨 Transfer over the <InlineFile file="tailwind.config.ts" /> theme customisations for `screens`, `colors` and `font-family` to the <InlineFile file="src/styles/tailwind.css" /> file.

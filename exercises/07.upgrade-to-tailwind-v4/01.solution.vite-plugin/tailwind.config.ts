@@ -1,3 +1,4 @@
+// @ts-expect-error
 import { type Config } from 'tailwindcss'
 import easings from 'open-props/src/easing'
 
