@@ -54,6 +54,6 @@
     "@typescript-eslint/parser": "^6.11.0",
     "execa": "^8.0.1",
     "fs-extra": "^11.1.1",
-    "prettier-plugin-tailwindcss": "^0.5.7"
+    "prettier-plugin-tailwindcss": "^0.5.12"
   }
 }
