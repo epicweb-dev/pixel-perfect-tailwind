@@ -23,7 +23,7 @@ function clsx(...classes: string[]) {
 export default function App() {
 	return (
 		<div className="grid min-h-screen place-items-center">
-			<div className="grid place-items-center gap-12 px-4 py-16 sm:gap-16 xl:grid-cols-[auto,1fr] xl:gap-24">
+			<div className="grid place-items-center gap-12 px-4 py-16 sm:gap-16 xl:grid-cols-[auto_1fr] xl:gap-24">
 				<div className="flex max-w-md flex-col items-center text-center xl:order-2 xl:items-start xl:text-left">
 					<EpicStackLogo className="size-20" />
 					<h1 className="sm:text-4.5xl lg:text-5.5xl mt-6 text-4xl font-medium md:mt-8 md:text-5xl">
