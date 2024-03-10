@@ -170,4 +170,4 @@ export const logos = [
 		column: 5,
 		row: 5,
 	},
-]
+] as const
