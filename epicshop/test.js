@@ -1,14 +1,13 @@
 // This should run by node without any dependencies
 // because you may need to run it without deps.
 
-import fs from 'fs'
 import path from 'node:path'
 import { spawn } from 'child_process'
 import {
 	getApps,
 	isExampleApp,
 	isSolutionApp,
-} from '@kentcdodds/workshop-app/apps.server'
+} from '@epic-web/workshop-utils/apps.server'
 
 const styles = {
 	// got these from playing around with what I found from:
@@ -32,7 +31,7 @@ const relativeToWorkshopRoot = dir =>
 	dir.replace(`${workshopRoot}${path.sep}`, '')
 
 // bundleMDX - throw when process.NODE_ENV is not a string
-// @kentcdodds/workshop-app/build/utils/compile-mdx.server
+// @epic-web/workshop-app/build/utils/compile-mdx.server
 process.env.NODE_ENV = 'development'
 
 const apps = await getApps()

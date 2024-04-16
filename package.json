@@ -1,23 +1,21 @@
 {
   "name": "pixel-perfect-tailwind",
   "private": true,
-  "kcd-workshop": {
+  "epicshop": {
     "title": "📐 Pixel Perfect Tailwind",
     "githubRoot": "https://github.com/epicweb-dev/pixel-perfect-tailwind/blob/main"
   },
   "type": "module",
   "scripts": {
-    "build": "npm run build --if-present --workspaces",
-    "start": "kcdshop start",
-    "dev": "kcdshop start",
+    "postinstall": "cd ./epicshop && npm install",
+    "start": "npx --prefix ./epicshop epicshop start",
+    "dev": "npx --prefix ./epicshop epicshop start",
     "test": "npm run test --silent --prefix playground",
     "test:e2e": "npm run test:e2e --silent --prefix playground",
     "test:e2e:dev": "npm run test:e2e:dev --silent --prefix playground",
     "test:e2e:run": "npm run test:e2e:run --silent --prefix playground",
-    "pretest:all": "npm run build",
-    "test:all": "node ./scripts/test.js",
     "setup": "node ./setup.js",
-    "setup:custom": "node ./scripts/setup-custom.js",
+    "setup:custom": "node ./epicshop/setup-custom.js",
     "lint": "eslint .",
     "format": "prettier --write .",
     "typecheck": "tsc -b",
@@ -26,9 +24,6 @@
   "keywords": [],
   "author": "Simon Vrachliotis <simon@simonswiss.com> (https://simonswiss.com/)",
   "license": "GPL-3.0-only",
-  "dependencies": {
-    "@kentcdodds/workshop-app": "^2.60.2"
-  },
   "eslintIgnore": [
     "/node_modules",
     "/build",
@@ -53,7 +48,10 @@
   "devDependencies": {
     "@typescript-eslint/parser": "^6.11.0",
     "execa": "^8.0.1",
-    "fs-extra": "^11.1.1",
+    "fs-extra": "^11.2.0",
     "prettier-plugin-tailwindcss": "^0.5.12"
+  },
+  "dependencies": {
+    "@epic-web/workshop-app": "^4.0.0"
   }
 }

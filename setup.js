@@ -1,1 +1,1 @@
-import './scripts/setup.js'
+import './epicshop/setup.js'

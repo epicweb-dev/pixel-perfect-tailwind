@@ -1,0 +1,10 @@
+{
+ "type": "module",
+ "scripts": {
+   "start": "cd .. && npm start"
+ },
+ "dependencies": {
+   "@epic-web/workshop-app": "^4.0.0",
+   "@epic-web/workshop-utils": "^4.0.0"
+ }
+}
