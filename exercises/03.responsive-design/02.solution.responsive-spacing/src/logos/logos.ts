@@ -128,4 +128,4 @@ export const logos = [
 		alt: 'Sentry',
 		href: 'https://sentry.io',
 	},
-]
+] as const

@@ -9,7 +9,7 @@ export default function App() {
 					<h1 className="sm:text-4.5xl lg:text-5.5xl mt-6 text-4xl font-medium md:text-5xl">
 						The <span className="text-highlight">Epic</span> Stack
 					</h1>
-					<p className="mt-4 text-slate-600 sm:text-lg lg:text-xl">
+					<p className="mt-4 text-slate-600 sm:text-lg md:text-xl">
 						Check the{' '}
 						<a className="text-black underline" href="#">
 							Getting Started
@@ -22,7 +22,7 @@ export default function App() {
 						<li key={logo.href}>
 							<a
 								href={logo.href}
-								className="bg-highlight/[7%] grid size-20 place-items-center rounded-2xl p-4 sm:size-24"
+								className="bg-highlight/[7%] grid size-20 place-items-center rounded-2xl p-4"
 							>
 								<img src={logo.src} alt="" />
 							</a>

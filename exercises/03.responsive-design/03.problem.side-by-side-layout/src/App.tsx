@@ -17,7 +17,7 @@ export default function App() {
 			<div className="grid place-items-center gap-12 px-4 py-16 sm:gap-16">
 				{/* 
 					🐨 To make the text content go on the right, change the 
-					'order' of the logo list to '2' at the xl breakpoint.
+					'order' of the text-content (first grid cell) to '2' at the xl breakpoint.
 
 					Adjust the 'items' and 'text' alignment to match the Figma design.
 				*/}
@@ -26,7 +26,7 @@ export default function App() {
 					<h1 className="sm:text-4.5xl lg:text-5.5xl mt-6 text-4xl font-medium md:mt-8 md:text-5xl">
 						The <span className="text-highlight">Epic</span> Stack
 					</h1>
-					<p className="mt-4 text-slate-600 sm:text-lg md:mt-6 lg:text-xl">
+					<p className="mt-4 text-slate-600 sm:text-lg md:mt-6 md:text-xl">
 						Check the{' '}
 						<a className="text-black underline" href="#">
 							Getting Started

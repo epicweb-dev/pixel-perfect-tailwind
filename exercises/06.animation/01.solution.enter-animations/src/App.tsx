@@ -29,7 +29,7 @@ export default function App() {
 					<h1 className="sm:text-4.5xl lg:text-5.5xl animate-slide-top mt-6 text-4xl font-medium [animation-delay:0.3s] md:mt-8 md:text-5xl">
 						The <span className="text-highlight">Epic</span> Stack
 					</h1>
-					<p className="animate-slide-top mt-4 text-slate-600 [animation-delay:0.8s] sm:text-lg md:mt-6 lg:text-xl">
+					<p className="animate-slide-top mt-4 text-slate-600 [animation-delay:0.8s] sm:text-lg md:mt-6 md:text-xl">
 						Check the{' '}
 						<a
 							className="focus:ring-highlight text-black underline hover:no-underline focus:outline-none focus:ring-2"

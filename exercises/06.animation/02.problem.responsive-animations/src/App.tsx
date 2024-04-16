@@ -55,7 +55,7 @@ export default function App() {
 					</h1>
 					<p
 						className={clsx(
-							'mt-4 text-slate-600 sm:text-lg md:mt-6 lg:text-xl',
+							'mt-4 text-slate-600 sm:text-lg md:mt-6 md:text-xl',
 							/* 
 								🐨 Add the 'animate-slide-left' classname at the 'xl' breakpoint.
 								Make sure the animation delay still works!

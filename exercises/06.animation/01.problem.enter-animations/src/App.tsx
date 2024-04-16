@@ -42,7 +42,7 @@ export default function App() {
 						🐨 Add the 'slide-top' classname to the paragraph. 
 						Use an arbitrary property to set an 'animation-delay' of 0.8s.
 					*/}
-					<p className="mt-4 text-slate-600 sm:text-lg md:mt-6 lg:text-xl">
+					<p className="mt-4 text-slate-600 sm:text-lg md:mt-6 md:text-xl">
 						Check the{' '}
 						<a
 							className="focus:ring-highlight text-black underline hover:no-underline focus:outline-none focus:ring-2"

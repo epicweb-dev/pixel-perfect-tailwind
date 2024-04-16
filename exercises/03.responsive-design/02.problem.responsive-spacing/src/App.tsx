@@ -2,7 +2,7 @@ import { EpicStackLogo, logos } from './logos/logos'
 
 /*
 	🐨 Look at the SM, MD and LG screen sizes in the Figma design.
-	Pay close attention to the **spacing between and around elements**.
+	Pay close attention to the **spacing between and around elements**, as well as the logo tiles size.
 	
 	Implement those breakpoint changes throughout the design.
 */
@@ -25,7 +25,7 @@ export default function App() {
 						The <span className="text-highlight">Epic</span> Stack
 					</h1>
 					{/* 👀 */}
-					<p className="mt-4 text-slate-600 sm:text-lg lg:text-xl">
+					<p className="mt-4 text-slate-600 sm:text-lg md:text-xl">
 						Check the{' '}
 						<a className="text-black underline" href="#">
 							Getting Started
@@ -37,9 +37,10 @@ export default function App() {
 				<ul className="flex max-w-3xl flex-wrap justify-center gap-2">
 					{logos.map(logo => (
 						<li key={logo.href}>
+							{/* 👀 */}
 							<a
 								href={logo.href}
-								className="bg-highlight/[7%] grid size-20 place-items-center rounded-2xl p-4 sm:size-24"
+								className="bg-highlight/[7%] grid size-20 place-items-center rounded-2xl p-4"
 							>
 								<img src={logo.src} alt="" />
 							</a>

@@ -12,6 +12,9 @@ import { EpicStackLogo, logos } from './logos/logos'
 	properties on the 'logos' array.
 */
 
+/*
+		🐨 Remove the @ts-expect-error comment below to trigger the error
+	*/
 // @ts-expect-error
 const columnClasses: Record<(typeof logos)[number]['column'], string> = {
 	/*
@@ -20,6 +23,9 @@ const columnClasses: Record<(typeof logos)[number]['column'], string> = {
 	*/
 }
 
+/*
+		🐨 Remove the @ts-expect-error comment below to trigger the error
+	*/
 // @ts-expect-error
 const rowClasses: Record<(typeof logos)[number]['row'], string> = {
 	/*
@@ -57,7 +63,7 @@ export default function App() {
 					<h1 className="sm:text-4.5xl lg:text-5.5xl mt-6 text-4xl font-medium md:mt-8 md:text-5xl">
 						The <span className="text-highlight">Epic</span> Stack
 					</h1>
-					<p className="mt-4 text-slate-600 sm:text-lg md:mt-6 lg:text-xl">
+					<p className="mt-4 text-slate-600 sm:text-lg md:mt-6 md:text-xl">
 						Check the{' '}
 						<a className="text-black underline" href="#">
 							Getting Started

@@ -36,7 +36,7 @@ export default function App() {
 						<li key={logo.href}>
 							<a
 								href={logo.href}
-								className="bg-highlight/[7%] grid size-20 place-items-center rounded-2xl p-4 sm:size-24"
+								className="bg-highlight/[7%] grid size-20 place-items-center rounded-2xl p-4"
 							>
 								<img src={logo.src} alt="" />
 							</a>

@@ -9,7 +9,7 @@ import { type Config } from 'tailwindcss'
 import easings from 'open-props/src/easing'
 
 export default {
-	content: ['./index.html', './src/**/*.{ts,tsx,js,jsx}'],
+	content: ['./src/**/*.{ts,tsx,js,jsx}', './index.html'],
 	theme: {
 		extend: {
 			screens: {

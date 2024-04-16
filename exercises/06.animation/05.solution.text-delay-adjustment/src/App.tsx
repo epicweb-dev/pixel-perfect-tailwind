@@ -45,7 +45,7 @@ export default function App() {
 					</h1>
 					<p
 						className={clsx(
-							'mt-4 text-slate-600 sm:text-lg md:mt-6 lg:text-xl',
+							'mt-4 text-slate-600 sm:text-lg md:mt-6 md:text-xl',
 							// Animation
 							'animate-slide-top [animation-delay:0.8s]',
 							'xl:animate-slide-left xl:[animation-delay:1.3s]',
