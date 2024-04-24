@@ -14,7 +14,7 @@
 
 	@keyframes roll-reveal {
 		from {
-			transform: rotate(12deg) scale(0.01);
+			transform: rotate(12deg) scale(0);
 			opacity: 0;
 		}
 		to {

@@ -52,7 +52,6 @@ export default function App() {
 							// Animation
 							'animate-slide-top [animation-delay:0.3s]',
 							'xl:animate-slide-left xl:[animation-delay:0.8s]',
-							'xl:col-start-2',
 						)}
 					>
 						The <span className="text-highlight">Epic</span> Stack

@@ -19,18 +19,6 @@ The custom `keyframes` are not defined via CSS variables — they're just regula
 }
 ```
 
-<callout-warning>
-	Heads up, you're probably going to try define a keyframe to: `transform:
-	rotate(12deg) scale(0);` When you do that, I noticed that the generated CSS
-	output for that frame will be `transform: matrix(0,0,0,0,0,0);`. This breaks
-	the rotation animation.
-</callout-warning>
-
-<callout-success>
-	You can work around that by setting the `scale()` transform to anything else
-	than zero. `scale(0.01)` does the trick!
-</callout-success>
-
 ## Defining animations
 
 You can extend `animations` in the Tailwind theme with `--animate-{name}` CSS variables.

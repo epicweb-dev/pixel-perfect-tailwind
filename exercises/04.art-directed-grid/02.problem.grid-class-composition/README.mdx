@@ -12,7 +12,7 @@
 
 The Tailwind Just-in-Time engine, which generates CSS as you need it, [📜 expects to see entire class strings](https://tailwindcss.com/docs/content-configuration#class-detection-in-depth) in your template files.
 
-This means you unfortunately cannot use _dynamic_ classes like this:
+This means you unfortunately **cannot** use _dynamic_ classes like this:
 
 ```tsx
 <div className={`col-start-${logo.column}`}></div>
@@ -54,9 +54,7 @@ function clsx(...classes: string[]) {
 🧝‍♀️ Here's an example of how to use it:
 
 ```tsx
-<div
-	className={clsx('some classes', 'more classnames', 'combined together')}
-/>
+<div className={clsx('some classes', 'more classnames', 'combined together')} />
 ```
 
 🐨 Compose the dynamic `column` class and `row` class on the `li` element, using the `clsx()` helper function.

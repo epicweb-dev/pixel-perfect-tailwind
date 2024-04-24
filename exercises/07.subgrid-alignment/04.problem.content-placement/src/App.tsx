@@ -30,10 +30,12 @@ export default function App() {
 			<div className="grid place-items-center gap-12 px-4 py-16 sm:gap-16 xl:grid-cols-[auto_1fr] xl:gap-x-24 xl:gap-y-4">
 				{/* 
 					🐨 
-						1. Coordinate the horizontal `gap` (level 4) on the subgrid
-						2. Make sure the first column (logo) only use the space it needs
+						1. Put the Logo and Title on the same (first) subgrid row
+									Make sure the first column (logo) only use the space it needs
 
-						💰 You can use `grid-cols-[auto_1fr]` to achieve task #2
+						2. Coordinate the horizontal `gap` (level 4) on the subgrid
+
+						💰 You can use `grid-cols-[auto_1fr]` to achieve task #1
 				*/}
 				<div
 					className={clsx(
@@ -49,10 +51,6 @@ export default function App() {
 							'xl:animate-slide-left xl:[animation-delay:0.5s]',
 						)}
 					/>
-					{/* 
-					🐨 
-						Make the `h1` start at the 2nd column
-				*/}
 					<h1
 						className={clsx(
 							'sm:text-4.5xl lg:text-5.5xl mt-6 text-4xl font-medium md:mt-8 md:text-5xl',

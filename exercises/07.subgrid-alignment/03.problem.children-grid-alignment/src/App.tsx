@@ -35,8 +35,9 @@ export default function App() {
 
 				{/* 
 					🐨 
-						While you're here, "undo" the `max-w-md` at 
-						the `xl` breakpoint with `xl:max-w-none`
+						While you're here, "undo" the `max-w-md` at the `xl` breakpoint with `xl:max-w-none`.
+						Also, you can remove the `xl:order-2` class. We're now controlling the 
+						grid cell position explicitly.
 				*/}
 				<div
 					className={clsx(
