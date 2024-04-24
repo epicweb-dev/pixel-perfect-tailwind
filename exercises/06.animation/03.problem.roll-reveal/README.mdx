@@ -30,9 +30,19 @@ Instead of basic transition timing functions like `linear` or `ease-in`, uou can
 
 💰 It's very hard to "visualise" what the `cubic-bezier()` function does, but luckily for us, there are some great online tools to help. [cubic-bezier.com](https://cubic-bezier.com) is a fantastic example!
 
-💰 Use any value you want here. If you don't feel inspired, here's a suggestion:
+### Open Props FTW
 
-`cubic-bezier(.22,1.28,.54,.99)` — here's [what it looks like](https://cubic-bezier.com/#.22,1.28,.54,.99).
+Have you heard of [Open Props](https://open-props.style/) by [Adam Argyle](https://twitter.com/argyleink)? It's a fantastic collection of CSS variables for common design properties or "tokens" like `colors`, and `spacing`.
+
+Turns out they have a bunch of `easing` functions as well — we could try one of those in our project!
+
+🧝‍♀️ I've added the 'open-props' npm package and imported a series of easing timing functions in the <InlineFile file="tailwind.config.ts" />:
+
+```ts filename=tailwind.config.ts
+import easings from 'open-props/src/easing'
+```
+
+🧝‍♀️ You can use one of these to fine-tune the "roll-reveal" animation!
 
 ## Animating the logo tiles
 
