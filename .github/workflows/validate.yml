@@ -48,8 +48,8 @@ jobs:
       # move Dockerfile to root
       - name: 🚚 Move Files
         run: |
-          mv ./epicshop/fly.toml ./fly.toml
-          mv ./epicshop/Dockerfile ./Dockerfile
+          mv ./epicshop/deployed/fly.toml ./fly.toml
+          mv ./epicshop/deployed/Dockerfile ./Dockerfile
           mv ./epicshop/.dockerignore ./.dockerignore
 
       - name: 🚀 Deploy Production
