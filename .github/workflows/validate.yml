@@ -50,7 +50,7 @@ jobs:
         run: |
           mv ./epicshop/deployed/fly.toml ./fly.toml
           mv ./epicshop/deployed/Dockerfile ./Dockerfile
-          mv ./epicshop/.dockerignore ./.dockerignore
+          mv ./epicshop/deployed/.dockerignore ./.dockerignore
 
       - name: 🚀 Deploy Production
         uses: superfly/flyctl-actions@1.3
