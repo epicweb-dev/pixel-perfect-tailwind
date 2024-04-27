@@ -1,8 +1,8 @@
 // This should run by node without any dependencies
 // because you may need to run it without deps.
 
-import fs from 'node:fs'
 import cp from 'node:child_process'
+import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -55,7 +55,7 @@ async function updatePkgNames() {
 	for (const file of appsWithPkgJson) {
 		const pkgjsonPath = path.join(file, 'package.json')
 		const pkg = JSON.parse(await fs.promises.readFile(pkgjsonPath, 'utf8'))
-		pkg.name = relativeToWorkshopRoot(file).replace(/\\|\//g, '__sep__')
+		pkg.name = relativeToWorkshopRoot(file).replace(/\\|\//g, '_')
 		const written = await writeIfNeeded(
 			pkgjsonPath,
 			`${JSON.stringify(pkg, null, 2)}\n`,
