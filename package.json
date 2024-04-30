@@ -3,7 +3,11 @@
   "private": true,
   "epicshop": {
     "title": "📐 Pixel Perfect Tailwind",
-    "githubRoot": "https://github.com/epicweb-dev/pixel-perfect-tailwind/blob/main"
+    "githubRoot": "https://github.com/epicweb-dev/pixel-perfect-tailwind/blob/main",
+    "forms": {
+      "exercise": "https://docs.google.com/forms/d/e/1FAIpQLSd_CXGmaqrhEs4ykj2Z92pE17K_HpZwMv81qFVZUyYUfC6-ng/viewform?hl=en&embedded=true&usp=pp_url&entry.768811917={workshopTitle}&entry.279928360={exerciseTitle}",
+      "workshop": "https://docs.google.com/forms/d/e/1FAIpQLSdBPrvL1FTGs4GV2c2FRhLkboZXNdgf4omm5-zgDEetoAvztQ/viewform?hl=en&embedded=true&usp=pp_url&entry.768811917={workshopTitle}"
+    }
   },
   "type": "module",
   "scripts": {
