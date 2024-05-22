@@ -8,7 +8,8 @@ export default function App() {
 
 				The first one is the full-page container. It needs to:
 				- have at minimum the full screen height (min-h-screen) 
-				- centers its children with a grid (grid place-items-center).
+				- centers its children with a grid (grid place-items-center)
+				- handle horizontal and verticall padding (see Figma)
 		*/}
 
 			{/*
@@ -19,7 +20,6 @@ export default function App() {
 				It needs to:
 				- be a grid (grid) that contains two children (cells)
 				- have a gap  (gap-12)
-				- handle horizontal and verticall padding (see Figma)
 				- center its children (place-items-center)
 	*/}
 
@@ -41,7 +41,7 @@ export default function App() {
 				{logos.map(logo => (
 					<li key={logo.href}>
 						<a href={logo.href}>
-							<img src={logo.src} alt="" className="w-16" />
+							<img src={logo.src} alt={logo.alt} className="w-16" />
 						</a>
 					</li>
 				))}

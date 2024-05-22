@@ -22,12 +22,12 @@ const rowClasses: Record<(typeof logos)[number]['row'], string> = {
 
 export default function App() {
 	return (
-		<div className="grid min-h-screen place-items-center">
+		<div className="grid min-h-screen place-items-center px-4 py-16">
 			{/* 
 				🐨 Add a `7xl` max-width container to the 
 				parent Grid at the `xl` breakpoint
 			*/}
-			<div className="grid place-items-center gap-12 px-4 py-16 sm:gap-16 xl:grid-cols-[auto_1fr] xl:gap-x-24 xl:gap-y-4">
+			<div className="grid place-items-center gap-12 sm:gap-16 xl:grid-cols-[auto_1fr] xl:gap-x-24 xl:gap-y-4">
 				{/* 
 					🐨 
 						1. Put the Logo and Title on the same (first) subgrid row
@@ -100,7 +100,7 @@ export default function App() {
 								href={logo.href}
 								className="bg-highlight/[7%] hover:bg-highlight/10 focus:ring-highlight grid size-20 place-items-center rounded-2xl p-4 transition hover:-rotate-6 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:size-24"
 							>
-								<img src={logo.src} alt="" />
+								<img src={logo.src} alt={logo.alt} />
 							</a>
 						</li>
 					))}

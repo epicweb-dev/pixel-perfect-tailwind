@@ -22,8 +22,8 @@ const rowClasses: Record<(typeof logos)[number]['row'], string> = {
 
 export default function App() {
 	return (
-		<div className="grid min-h-screen place-items-center">
-			<div className="grid place-items-center gap-12 px-4 py-16 sm:gap-16 xl:grid-cols-[auto_1fr] xl:gap-24">
+		<div className="grid min-h-screen place-items-center px-4 py-16">
+			<div className="grid place-items-center gap-12 sm:gap-16 xl:grid-cols-[auto_1fr] xl:gap-24">
 				<div className="flex max-w-md flex-col items-center text-center xl:order-2 xl:items-start xl:text-left">
 					{/* 
 						🐨 Add the 'slide-top' classname to the EpicStackLogo component. 
@@ -63,7 +63,7 @@ export default function App() {
 								href={logo.href}
 								className="bg-highlight/[7%] hover:bg-highlight/10 focus:ring-highlight grid size-20 place-items-center rounded-2xl p-4 transition hover:-rotate-6 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:size-24"
 							>
-								<img src={logo.src} alt="" />
+								<img src={logo.src} alt={logo.alt} />
 							</a>
 						</li>
 					))}

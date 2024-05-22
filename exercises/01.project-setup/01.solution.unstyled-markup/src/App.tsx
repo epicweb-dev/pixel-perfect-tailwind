@@ -13,7 +13,7 @@ export default function App() {
 				{logos.map(logo => (
 					<li key={logo.href}>
 						<a href={logo.href}>
-							<img src={logo.src} alt="" className="w-16" />
+							<img src={logo.src} alt={logo.alt} className="w-16" />
 						</a>
 					</li>
 				))}

@@ -2,7 +2,7 @@ import { EpicStackLogo, logos } from './logos/logos'
 
 export default function App() {
 	return (
-		<div className="grid min-h-screen place-items-center">
+		<div className="grid min-h-screen place-items-center px-4 py-16">
 			{/* 
 				🐨 At the xl breakpoint, make the grid have 2 columns.
 				The first column's width should be defined by the logo grid (auto).
@@ -14,7 +14,7 @@ export default function App() {
 			{/* 
 				💰 You can use a 'grid-cols-[]' arbitrary value to achieve this! 
 			*/}
-			<div className="grid place-items-center gap-12 px-4 py-16 sm:gap-16">
+			<div className="grid place-items-center gap-12 sm:gap-16">
 				{/* 
 					🐨 To make the text content go on the right, change the 
 					'order' of the text-content (first grid cell) to '2' at the xl breakpoint.
@@ -41,7 +41,7 @@ export default function App() {
 								href={logo.href}
 								className="bg-highlight/[7%] grid size-20 place-items-center rounded-2xl p-4 sm:size-24"
 							>
-								<img src={logo.src} alt="" />
+								<img src={logo.src} alt={logo.alt} />
 							</a>
 						</li>
 					))}
