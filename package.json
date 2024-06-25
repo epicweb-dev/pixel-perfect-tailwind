@@ -61,9 +61,6 @@
     "prettier-plugin-tailwindcss": "^0.5.12",
     "typescript": "^5.4.5"
   },
-  "dependencies": {
-    "@epic-web/workshop-app": "^4.6.6"
-  },
   "prettierIgnore": [
     "node_modules",
     "**/build/**",
