@@ -3,6 +3,12 @@
   "private": true,
   "epicshop": {
     "title": "📐 Pixel Perfect Tailwind",
+    "description": "Learn how to create pixel-perfect Figma-to-Tailwind implementations.",
+    "instructor": {
+      "name": "Simon Vrachliotis",
+      "avatar": "/images/instructor.png",
+      "𝕏": "simonswiss"
+    },
     "githubRoot": "https://github.com/epicweb-dev/pixel-perfect-tailwind/blob/main",
     "forms": {
       "exercise": "https://docs.google.com/forms/d/e/1FAIpQLSd_CXGmaqrhEs4ykj2Z92pE17K_HpZwMv81qFVZUyYUfC6-ng/viewform?hl=en&embedded=true&usp=pp_url&entry.768811917={workshopTitle}&entry.279928360={exerciseTitle}",
@@ -56,7 +62,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@epic-web/workshop-app": "^4.0.0"
+    "@epic-web/workshop-app": "^4.6.6"
   },
   "prettierIgnore": [
     "node_modules",
