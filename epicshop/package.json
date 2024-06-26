@@ -1,8 +1,7 @@
 {
   "type": "module",
   "dependencies": {
-    "@epic-web/workshop-app": "^4.6.6",
-    "@epic-web/workshop-utils": "^4.6.6",
+    "@epic-web/workshop-app": "^4.7.0",
     "chokidar": "^3.6.0",
     "execa": "^9.3.0",
     "fs-extra": "^11.2.0"
