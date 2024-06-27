@@ -21,7 +21,7 @@ export default function App() {
 					🐨 At the xl breakpoint, make the logo list a structured grid with 5 columns and 6 rows. The grid should flow from top to bottom, left to right.
 				*/}
 				<ul className="flex max-w-3xl flex-wrap justify-center gap-2 sm:gap-4">
-					{logos.map(logo => (
+					{logos.map((logo) => (
 						<li key={logo.href}>
 							<a
 								href={logo.href}

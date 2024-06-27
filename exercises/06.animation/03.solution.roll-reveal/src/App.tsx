@@ -62,7 +62,7 @@ export default function App() {
 					</p>
 				</div>
 				<ul className="flex max-w-3xl flex-wrap justify-center gap-2 sm:gap-4 xl:grid xl:grid-flow-col xl:grid-cols-5 xl:grid-rows-6">
-					{logos.map(logo => (
+					{logos.map((logo) => (
 						<li
 							key={logo.href}
 							className={clsx(

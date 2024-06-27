@@ -1,170 +1,168 @@
 {
-  "files": [],
-  "exclude": [
-    "node_modules"
-  ],
-  "references": [
-    {
-      "path": "exercises/01.project-setup/01.problem.unstyled-markup"
-    },
-    {
-      "path": "exercises/01.project-setup/01.solution.unstyled-markup"
-    },
-    {
-      "path": "exercises/01.project-setup/02.problem.tailwind-config"
-    },
-    {
-      "path": "exercises/01.project-setup/02.solution.tailwind-config"
-    },
-    {
-      "path": "exercises/02.mobile-first/01.problem.structural-layout"
-    },
-    {
-      "path": "exercises/02.mobile-first/01.solution.structural-layout"
-    },
-    {
-      "path": "exercises/02.mobile-first/02.problem.text-styles"
-    },
-    {
-      "path": "exercises/02.mobile-first/02.solution.text-styles"
-    },
-    {
-      "path": "exercises/02.mobile-first/03.problem.logo-list"
-    },
-    {
-      "path": "exercises/02.mobile-first/03.solution.logo-list"
-    },
-    {
-      "path": "exercises/03.responsive-design/01.problem.responsive-typography"
-    },
-    {
-      "path": "exercises/03.responsive-design/01.solution.responsive-typography"
-    },
-    {
-      "path": "exercises/03.responsive-design/02.problem.responsive-spacing"
-    },
-    {
-      "path": "exercises/03.responsive-design/02.solution.responsive-spacing"
-    },
-    {
-      "path": "exercises/03.responsive-design/03.problem.side-by-side-layout"
-    },
-    {
-      "path": "exercises/03.responsive-design/03.solution.side-by-side-layout"
-    },
-    {
-      "path": "exercises/03.responsive-design/04.problem.logo-grid"
-    },
-    {
-      "path": "exercises/03.responsive-design/04.solution.logo-grid"
-    },
-    {
-      "path": "exercises/04.art-directed-grid/01.problem.logo-coordinates"
-    },
-    {
-      "path": "exercises/04.art-directed-grid/01.solution.logo-coordinates"
-    },
-    {
-      "path": "exercises/04.art-directed-grid/02.problem.grid-class-composition"
-    },
-    {
-      "path": "exercises/04.art-directed-grid/02.solution.grid-class-composition"
-    },
-    {
-      "path": "exercises/05.interaction/01.problem.text-interactions"
-    },
-    {
-      "path": "exercises/05.interaction/01.solution.text-interactions"
-    },
-    {
-      "path": "exercises/05.interaction/02.problem.logo-grid-interactions"
-    },
-    {
-      "path": "exercises/05.interaction/02.solution.logo-grid-interactions"
-    },
-    {
-      "path": "exercises/06.animation/01.problem.enter-animations"
-    },
-    {
-      "path": "exercises/06.animation/01.solution.enter-animations"
-    },
-    {
-      "path": "exercises/06.animation/02.problem.responsive-animations"
-    },
-    {
-      "path": "exercises/06.animation/02.solution.responsive-animations"
-    },
-    {
-      "path": "exercises/06.animation/03.problem.roll-reveal"
-    },
-    {
-      "path": "exercises/06.animation/03.solution.roll-reveal"
-    },
-    {
-      "path": "exercises/06.animation/04.problem.logo-stagger-reveal"
-    },
-    {
-      "path": "exercises/06.animation/04.solution.logo-stagger-reveal"
-    },
-    {
-      "path": "exercises/06.animation/05.problem.text-delay-adjustment"
-    },
-    {
-      "path": "exercises/06.animation/05.solution.text-delay-adjustment"
-    },
-    {
-      "path": "exercises/07.subgrid-alignment/01.problem.sub-grid"
-    },
-    {
-      "path": "exercises/07.subgrid-alignment/01.solution.sub-grid"
-    },
-    {
-      "path": "exercises/07.subgrid-alignment/02.problem.vertical-gap"
-    },
-    {
-      "path": "exercises/07.subgrid-alignment/02.solution.vertical-gap"
-    },
-    {
-      "path": "exercises/07.subgrid-alignment/03.problem.children-grid-alignment"
-    },
-    {
-      "path": "exercises/07.subgrid-alignment/03.solution.children-grid-alignment"
-    },
-    {
-      "path": "exercises/07.subgrid-alignment/04.problem.content-placement"
-    },
-    {
-      "path": "exercises/07.subgrid-alignment/04.solution.content-placement"
-    },
-    {
-      "path": "exercises/07.subgrid-alignment/05.problem.content-alignment"
-    },
-    {
-      "path": "exercises/07.subgrid-alignment/05.solution.content-alignment"
-    },
-    {
-      "path": "exercises/08.upgrade-to-tailwind-v4/01.problem.vite-plugin"
-    },
-    {
-      "path": "exercises/08.upgrade-to-tailwind-v4/01.solution.vite-plugin"
-    },
-    {
-      "path": "exercises/08.upgrade-to-tailwind-v4/02.problem.css-theme-config"
-    },
-    {
-      "path": "exercises/08.upgrade-to-tailwind-v4/02.solution.css-theme-config"
-    },
-    {
-      "path": "exercises/08.upgrade-to-tailwind-v4/03.problem.font-sizes"
-    },
-    {
-      "path": "exercises/08.upgrade-to-tailwind-v4/03.solution.font-sizes"
-    },
-    {
-      "path": "exercises/08.upgrade-to-tailwind-v4/04.problem.keyframe-animations"
-    },
-    {
-      "path": "exercises/08.upgrade-to-tailwind-v4/04.solution.keyframe-animations"
-    }
-  ]
+	"files": [],
+	"exclude": ["node_modules"],
+	"references": [
+		{
+			"path": "exercises/01.project-setup/01.problem.unstyled-markup"
+		},
+		{
+			"path": "exercises/01.project-setup/01.solution.unstyled-markup"
+		},
+		{
+			"path": "exercises/01.project-setup/02.problem.tailwind-config"
+		},
+		{
+			"path": "exercises/01.project-setup/02.solution.tailwind-config"
+		},
+		{
+			"path": "exercises/02.mobile-first/01.problem.structural-layout"
+		},
+		{
+			"path": "exercises/02.mobile-first/01.solution.structural-layout"
+		},
+		{
+			"path": "exercises/02.mobile-first/02.problem.text-styles"
+		},
+		{
+			"path": "exercises/02.mobile-first/02.solution.text-styles"
+		},
+		{
+			"path": "exercises/02.mobile-first/03.problem.logo-list"
+		},
+		{
+			"path": "exercises/02.mobile-first/03.solution.logo-list"
+		},
+		{
+			"path": "exercises/03.responsive-design/01.problem.responsive-typography"
+		},
+		{
+			"path": "exercises/03.responsive-design/01.solution.responsive-typography"
+		},
+		{
+			"path": "exercises/03.responsive-design/02.problem.responsive-spacing"
+		},
+		{
+			"path": "exercises/03.responsive-design/02.solution.responsive-spacing"
+		},
+		{
+			"path": "exercises/03.responsive-design/03.problem.side-by-side-layout"
+		},
+		{
+			"path": "exercises/03.responsive-design/03.solution.side-by-side-layout"
+		},
+		{
+			"path": "exercises/03.responsive-design/04.problem.logo-grid"
+		},
+		{
+			"path": "exercises/03.responsive-design/04.solution.logo-grid"
+		},
+		{
+			"path": "exercises/04.art-directed-grid/01.problem.logo-coordinates"
+		},
+		{
+			"path": "exercises/04.art-directed-grid/01.solution.logo-coordinates"
+		},
+		{
+			"path": "exercises/04.art-directed-grid/02.problem.grid-class-composition"
+		},
+		{
+			"path": "exercises/04.art-directed-grid/02.solution.grid-class-composition"
+		},
+		{
+			"path": "exercises/05.interaction/01.problem.text-interactions"
+		},
+		{
+			"path": "exercises/05.interaction/01.solution.text-interactions"
+		},
+		{
+			"path": "exercises/05.interaction/02.problem.logo-grid-interactions"
+		},
+		{
+			"path": "exercises/05.interaction/02.solution.logo-grid-interactions"
+		},
+		{
+			"path": "exercises/06.animation/01.problem.enter-animations"
+		},
+		{
+			"path": "exercises/06.animation/01.solution.enter-animations"
+		},
+		{
+			"path": "exercises/06.animation/02.problem.responsive-animations"
+		},
+		{
+			"path": "exercises/06.animation/02.solution.responsive-animations"
+		},
+		{
+			"path": "exercises/06.animation/03.problem.roll-reveal"
+		},
+		{
+			"path": "exercises/06.animation/03.solution.roll-reveal"
+		},
+		{
+			"path": "exercises/06.animation/04.problem.logo-stagger-reveal"
+		},
+		{
+			"path": "exercises/06.animation/04.solution.logo-stagger-reveal"
+		},
+		{
+			"path": "exercises/06.animation/05.problem.text-delay-adjustment"
+		},
+		{
+			"path": "exercises/06.animation/05.solution.text-delay-adjustment"
+		},
+		{
+			"path": "exercises/07.subgrid-alignment/01.problem.sub-grid"
+		},
+		{
+			"path": "exercises/07.subgrid-alignment/01.solution.sub-grid"
+		},
+		{
+			"path": "exercises/07.subgrid-alignment/02.problem.vertical-gap"
+		},
+		{
+			"path": "exercises/07.subgrid-alignment/02.solution.vertical-gap"
+		},
+		{
+			"path": "exercises/07.subgrid-alignment/03.problem.children-grid-alignment"
+		},
+		{
+			"path": "exercises/07.subgrid-alignment/03.solution.children-grid-alignment"
+		},
+		{
+			"path": "exercises/07.subgrid-alignment/04.problem.content-placement"
+		},
+		{
+			"path": "exercises/07.subgrid-alignment/04.solution.content-placement"
+		},
+		{
+			"path": "exercises/07.subgrid-alignment/05.problem.content-alignment"
+		},
+		{
+			"path": "exercises/07.subgrid-alignment/05.solution.content-alignment"
+		},
+		{
+			"path": "exercises/08.upgrade-to-tailwind-v4/01.problem.vite-plugin"
+		},
+		{
+			"path": "exercises/08.upgrade-to-tailwind-v4/01.solution.vite-plugin"
+		},
+		{
+			"path": "exercises/08.upgrade-to-tailwind-v4/02.problem.css-theme-config"
+		},
+		{
+			"path": "exercises/08.upgrade-to-tailwind-v4/02.solution.css-theme-config"
+		},
+		{
+			"path": "exercises/08.upgrade-to-tailwind-v4/03.problem.font-sizes"
+		},
+		{
+			"path": "exercises/08.upgrade-to-tailwind-v4/03.solution.font-sizes"
+		},
+		{
+			"path": "exercises/08.upgrade-to-tailwind-v4/04.problem.keyframe-animations"
+		},
+		{
+			"path": "exercises/08.upgrade-to-tailwind-v4/04.solution.keyframe-animations"
+		}
+	]
 }

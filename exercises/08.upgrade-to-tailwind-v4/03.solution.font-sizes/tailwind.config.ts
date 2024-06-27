@@ -1,6 +1,6 @@
 // @ts-expect-error
-import { type Config } from 'tailwindcss'
 import easings from 'open-props/src/easing'
+import { type Config } from 'tailwindcss'
 
 export default {
 	content: ['./src/**/*.{ts,tsx,js,jsx}', './index.html'],

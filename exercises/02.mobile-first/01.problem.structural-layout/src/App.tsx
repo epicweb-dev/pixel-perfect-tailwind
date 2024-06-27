@@ -38,7 +38,7 @@ export default function App() {
 
 			{/* Logo list */}
 			<ul>
-				{logos.map(logo => (
+				{logos.map((logo) => (
 					<li key={logo.href}>
 						<a href={logo.href}>
 							<img src={logo.src} alt={logo.alt} className="w-16" />
