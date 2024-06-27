@@ -1,44 +1,28 @@
-/** @type {import('@types/eslint').Linter.Config} */
-export default {
-	languageOptions: { parser: await import('@typescript-eslint/parser') },
-	plugins: {
-		'@typescript-eslint': (await import('@typescript-eslint/eslint-plugin'))
-			.default,
-		import: (await import('eslint-plugin-import')).default,
-	},
-	ignores: [
-		'node_modules',
-		'build',
-		'public/build',
-		'playwright-report',
-		'test-results',
-	],
-	rules: {
-		// playwright requires destructuring in fixtures even if you don't use anything 🤷‍♂️
-		'no-empty-pattern': 'off',
-		'@typescript-eslint/consistent-type-imports': [
-			'warn',
-			{
-				prefer: 'type-imports',
-				disallowTypeAnnotations: true,
-				fixStyle: 'inline-type-imports',
-			},
+import defaultConfig from '@epic-web/config/eslint'
+
+/** @type {import("eslint").Linter.Config} */
+export default [
+	...defaultConfig,
+	{
+		ignores: [
+			// these are generated
+			'**/vite.config.d.ts',
+			'**/tailwind.config.d.ts',
+			'**/vite.config.js',
+			'**/tailwind.config.js',
 		],
-		'import/no-duplicates': ['warn', { 'prefer-inline': true }],
-		'import/consistent-type-specifier-style': ['warn', 'prefer-inline'],
-		'import/order': [
-			'warn',
-			{
-				alphabetize: { order: 'asc', caseInsensitive: true },
-				groups: [
-					'builtin',
-					'external',
-					'internal',
-					'parent',
-					'sibling',
-					'index',
+		languageOptions: {
+			parserOptions: {
+				project: [
+					'./exercises/**/tsconfig.json',
+					'./exercises/**/tsconfig.node.json',
 				],
 			},
-		],
+		},
+		rules: {
+			// we leave unused vars around for the exercises
+			'no-unused-vars': 'off',
+			'@typescript-eslint/no-unused-vars': 'off',
+		},
 	},
-}
+]

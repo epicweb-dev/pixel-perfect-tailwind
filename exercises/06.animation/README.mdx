@@ -73,20 +73,20 @@ Here's what our `fade-in` example animation from above would look like in the Ta
 ```ts
 // tailwind.config.ts
 export default {
-  // ...
-  theme: {
-    extend: {
-      keyframes: {
-        'fade-in': {
-          from: { opacity: 0 },
-          to: { opacity: 1 },
-        },
-      },
-      animation: {
-        'fade-in': 'fade-in 1s ease-in-out',
-      },
-    },
-  }
+	// ...
+	theme: {
+		extend: {
+			keyframes: {
+				'fade-in': {
+					from: { opacity: 0 },
+					to: { opacity: 1 },
+				},
+			},
+			animation: {
+				'fade-in': 'fade-in 1s ease-in-out',
+			},
+		},
+	},
 }
 ```
 

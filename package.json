@@ -28,19 +28,12 @@
     "setup:custom": "node ./epicshop/setup-custom.js",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "typecheck": "tsc -b",
+    "typecheck": "tsc",
     "validate:all": "npm-run-all --parallel --print-label --print-name --continue-on-error test:all lint typecheck"
   },
   "keywords": [],
   "author": "Simon Vrachliotis <simon@simonswiss.com> (https://simonswiss.com/)",
   "license": "GPL-3.0-only",
-  "eslintConfig": {
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-      "ecmaVersion": 2020,
-      "sourceType": "module"
-    }
-  },
   "workspaces": [
     "exercises/*/*",
     "examples/*"
@@ -51,22 +44,10 @@
     "git": ">=2.18.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.14.1",
-    "@typescript-eslint/parser": "^7.14.1",
+    "@epic-web/config": "^1.11.2",
     "eslint": "^9.5.0",
-    "eslint-plugin-import": "^2.29.1",
-    "execa": "^9.3.0",
-    "fs-extra": "^11.2.0",
     "prettier": "^3.3.2",
-    "prettier-plugin-tailwindcss": "^0.6.5",
     "typescript": "^5.5.2"
   },
-  "prettierIgnore": [
-    "node_modules",
-    "**/build/**",
-    "**/public/build/**",
-    ".env",
-    "**/package-lock.json",
-    "**/playwright-report/**"
-  ]
+  "prettier": "@epic-web/config/prettier"
 }

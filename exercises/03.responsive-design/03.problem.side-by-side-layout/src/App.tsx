@@ -35,7 +35,7 @@ export default function App() {
 					</p>
 				</div>
 				<ul className="flex max-w-3xl flex-wrap justify-center gap-2 sm:gap-4">
-					{logos.map(logo => (
+					{logos.map((logo) => (
 						<li key={logo.href}>
 							<a
 								href={logo.href}

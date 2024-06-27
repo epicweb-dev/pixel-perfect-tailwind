@@ -1,13 +1,13 @@
-// @ts-expect-error
-import { type Config } from 'tailwindcss'
 import easings from 'open-props/src/easing'
+// @ts-expect-error tailwind v4 doesn't have a TS config. We'll be removing this shortly
+import { type Config } from 'tailwindcss'
 
 export default {
 	content: ['./src/**/*.{ts,tsx,js,jsx}', './index.html'],
 	theme: {
 		extend: {
 			/*
-     🐨 Port the `keyframes` and `animation` defitions 
+				🐨 Port the `keyframes` and `animation` defitions 
 					below to the CSS file.
 			*/
 			keyframes: {

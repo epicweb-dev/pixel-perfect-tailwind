@@ -26,7 +26,7 @@ export default function App() {
 					- have a 3xl max-width container
 				*/
 				>
-					{logos.map(logo => (
+					{logos.map((logo) => (
 						<li key={logo.href}>
 							<a
 								href={logo.href}

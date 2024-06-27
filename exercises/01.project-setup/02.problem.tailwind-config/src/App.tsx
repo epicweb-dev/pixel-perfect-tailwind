@@ -14,7 +14,7 @@ export default function App() {
 				project off the ground!
 			</p>
 			<ul>
-				{logos.map(logo => (
+				{logos.map((logo) => (
 					<li key={logo.href}>
 						<a href={logo.href}>
 							<img src={logo.src} alt={logo.alt} className="w-16" />

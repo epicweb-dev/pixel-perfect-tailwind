@@ -27,7 +27,7 @@ const here = (...p) => path.join(__dirname, ...p)
 
 const workshopRoot = here('..')
 
-const relativeToWorkshopRoot = dir =>
+const relativeToWorkshopRoot = (dir) =>
 	dir.replace(`${workshopRoot}${path.sep}`, '')
 
 // bundleMDX - throw when process.NODE_ENV is not a string
@@ -59,8 +59,8 @@ for (const app of [...solutionApps, ...exampleApps]) {
 		},
 	})
 
-	await new Promise(res => {
-		cp.on('exit', code => {
+	await new Promise((res) => {
+		cp.on('exit', (code) => {
 			if (code === 0) {
 				console.log(color('success', `✅  Tests passed (${relativePath})`))
 			} else {

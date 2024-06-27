@@ -1,3 +1,4 @@
+import easings from 'open-props/src/easing'
 import { type Config } from 'tailwindcss'
 
 /*
@@ -6,7 +7,6 @@ import { type Config } from 'tailwindcss'
 	
 	You can use one of these to fine-tune the "roll-reveal" animation below!
 */
-import easings from 'open-props/src/easing'
 
 export default {
 	content: ['./src/**/*.{ts,tsx,js,jsx}', './index.html'],

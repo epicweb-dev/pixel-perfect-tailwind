@@ -10,6 +10,13 @@ data.db
 **/tsconfig.tsbuildinfo
 **/tsconfig.node.tsbuildinfo
 
+# I'm not certain why these files get created in the first place, but we
+# definitely don't want to commit generated files...
+**/tailwind.config.js
+**/vite.config.js
+**/tailwind.config.d.ts
+**/vite.config.d.ts
+
 # in a real app you'd want to not commit the .env
 # file as well, but since this is for a workshop
 # we're going to keep them around.
