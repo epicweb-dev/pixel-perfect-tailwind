@@ -4,6 +4,13 @@ import defaultConfig from '@epic-web/config/eslint'
 export default [
 	...defaultConfig,
 	{
+		ignores: [
+			// these are generated
+			'**/vite.config.d.ts',
+			'**/tailwind.config.d.ts',
+			'**/vite.config.js',
+			'**/tailwind.config.js',
+		],
 		languageOptions: {
 			parserOptions: {
 				project: [

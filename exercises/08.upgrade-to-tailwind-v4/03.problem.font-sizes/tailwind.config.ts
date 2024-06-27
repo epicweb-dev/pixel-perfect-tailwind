@@ -1,5 +1,5 @@
-// @ts-expect-error
 import easings from 'open-props/src/easing'
+// @ts-expect-error tailwind v4 doesn't have a TS config. We'll be removing this shortly
 import { type Config } from 'tailwindcss'
 
 export default {

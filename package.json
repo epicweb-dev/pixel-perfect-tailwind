@@ -28,7 +28,7 @@
     "setup:custom": "node ./epicshop/setup-custom.js",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "typecheck": "tsc -b",
+    "typecheck": "tsc",
     "validate:all": "npm-run-all --parallel --print-label --print-name --continue-on-error test:all lint typecheck"
   },
   "keywords": [],
