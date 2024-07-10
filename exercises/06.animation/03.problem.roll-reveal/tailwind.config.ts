@@ -45,7 +45,7 @@ export default {
 					👨‍💼 We want to respect the user's system preferences for reduced motion,
 					so let's also create an "alternative", simpler reveal. 
 
-					🐨 2. Create a 'fade-in' keyframes defition. 
+					🐨 2. Create a 'fade-in' keyframes definition. 
 					
 					It should start at 0% opacity and end at 100% opacity.
 				*/
