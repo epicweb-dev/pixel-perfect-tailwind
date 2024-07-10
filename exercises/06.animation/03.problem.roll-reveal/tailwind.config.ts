@@ -45,7 +45,7 @@ export default {
 					👨‍💼 We want to respect the user's system preferences for reduced motion,
 					so let's also create an "alternative", simpler reveal. 
 
-					🐨 2. Create a 'fade-in' keyframes defition. 
+					🐨 2. Create a 'fade-in' keyframes definition. 
 					
 					It should start at 0% opacity and end at 100% opacity.
 				*/
@@ -63,7 +63,7 @@ export default {
 					🐨 1. Add a 'roll-reveal' animation. It should use the 'roll-reveal' keyframe
 					you just created, and animate once over 0.4 seconds.
 
-					Try your own easgins (https://cubic-bezier.com is a great resource ✨), 
+					Try your own easigns (https://cubic-bezier.com is a great resource ✨), 
 					or have fun playing with Open Props' easing function we've imported! 
 					
 					In the solution, we use the `--ease-spring-2` easing function.
