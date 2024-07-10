@@ -63,7 +63,7 @@ export default {
 					🐨 1. Add a 'roll-reveal' animation. It should use the 'roll-reveal' keyframe
 					you just created, and animate once over 0.4 seconds.
 
-					Try your own easgins (https://cubic-bezier.com is a great resource ✨), 
+					Try your own easigns (https://cubic-bezier.com is a great resource ✨), 
 					or have fun playing with Open Props' easing function we've imported! 
 					
 					In the solution, we use the `--ease-spring-2` easing function.
