@@ -4,7 +4,6 @@ export default function App() {
 			<p>Let's build something epic!</p>
 			{/*
 				🐨 1. Import the { EpicStackLogo } component from the './logos/logos.tsx' file. 
-				It is a React component that accepts Tailwind classNames.
 				Render it with a width and height of level 20
 			*/}
 
