@@ -2,50 +2,35 @@ import { EpicStackLogo, logos } from './logos/logos'
 
 export default function App() {
 	return (
-		<>
-			{/*
-				🐨 We need to wrap our entire markup inside two container divs.
-
-				The first one is the full-page container. It needs to:
-				- have at minimum the full screen height (min-h-screen) 
-				- centers its children with a grid (grid place-items-center)
-				- handle horizontal and verticall padding (see Figma)
-		*/}
-
-			{/*
-				🐨 Inside of that, wrap the entire markup in another 'div'. 
-				This is our layout container, a common parent to both
-				the logo list and the text content. 
-				
-				It needs to:
-				- be a grid (grid) that contains two children (cells)
-				- have a gap  (gap-12)
-				- center its children (place-items-center)
-	*/}
-
-			{/* 
-				🐨 Wrap the Logo, h1 and paragraph in a common parent 'div'.
-				It will become one of the two grid cells in our layout. 
-			*/}
-			<EpicStackLogo className="size-20" />
-			<h1>
-				The <span className="text-highlight">Epic</span> Stack
-			</h1>
-			<p>
-				Check the <a href="#">Getting Started</a> guide file for how to get your
-				project off the ground!
-			</p>
-
-			{/* Logo list */}
-			<ul>
-				{logos.map((logo) => (
-					<li key={logo.href}>
-						<a href={logo.href}>
-							<img src={logo.src} alt={logo.alt} className="w-16" />
-						</a>
-					</li>
-				))}
-			</ul>
-		</>
+		<div className="font-poppins grid min-h-dvh place-items-center px-4 py-16">
+			<div className="grid place-items-center gap-12">
+				<div>
+					<div>
+						<EpicStackLogo className="size-20" />
+						<h1>
+							The{' '}
+							<span className="text-highlight text-4xl font-medium">Epic</span>{' '}
+							Stack
+						</h1>
+					</div>
+					<p>
+						Check the <a href="#">Getting Started</a> guide file for how to get
+						your project off the ground!
+					</p>
+				</div>
+				<div>
+					{/* Logo list */}
+					<ul>
+						{logos.map((logo) => (
+							<li key={logo.href}>
+								<a href={logo.href}>
+									<img src={logo.src} alt={logo.alt} className="w-16" />
+								</a>
+							</li>
+						))}
+					</ul>
+				</div>
+			</div>
+		</div>
 	)
 }

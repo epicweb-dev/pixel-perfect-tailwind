@@ -11,7 +11,7 @@ export default function App() {
 					</h1>
 					<p>
 						Check the <a href="#">Getting Started</a> guide file for how to get
-						your project off the ground!
+						your prodject off the ground!
 					</p>
 				</div>
 				<ul>

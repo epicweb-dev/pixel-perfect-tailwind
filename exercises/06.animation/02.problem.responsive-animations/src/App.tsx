@@ -27,7 +27,7 @@ export default function App() {
 				<div className="flex max-w-md flex-col items-center text-center xl:order-2 xl:items-start xl:text-left">
 					<EpicStackLogo
 						/* 
-							👩‍🔬 I've used clsx() here purely for organisation purposes.
+							👩‍🔬 I've used clsx() here purely for organistion purposes.
 							I've separated the animation classes so it's a little 
 							easier to distinguish styling concerns.
 
