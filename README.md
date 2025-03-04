@@ -42,7 +42,7 @@ This workshop is intended for developers who are already familiar with Tailwind
 CSS.
 
 If you’re not, great free resources to quickly up-skill are the official
-[Tailwind docs](https://tailwindcss/com) and
+[Tailwind docs](https://tailwindcss.com) and
 [YouTube channel](https://youtube.com/tailwindlabs). The
 [From Zero to Production](https://www.youtube.com/playlist?list=PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0)
 video series in particular is a great introduction to Tailwind, even if designed
