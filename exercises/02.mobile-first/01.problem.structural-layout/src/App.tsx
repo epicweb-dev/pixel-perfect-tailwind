@@ -7,25 +7,25 @@ export default function App() {
 				🐨 We need to wrap our entire markup inside two container divs.
 
 				The first one is the full-page container. It needs to:
-				- have at minimum the full screen height (min-h-screen) 
+				- have at minimum the full screen height (min-h-screen)
 				- centers its children with a grid (grid place-items-center)
-				- handle horizontal and verticall padding (see Figma)
+				- handle horizontal and vertical padding (see Figma)
 		*/}
 
 			{/*
-				🐨 Inside of that, wrap the entire markup in another 'div'. 
+				🐨 Inside of that, wrap the entire markup in another 'div'.
 				This is our layout container, a common parent to both
-				the logo list and the text content. 
-				
+				the logo list and the text content.
+
 				It needs to:
 				- be a grid (grid) that contains two children (cells)
 				- have a gap  (gap-12)
 				- center its children (place-items-center)
 	*/}
 
-			{/* 
+			{/*
 				🐨 Wrap the Logo, h1 and paragraph in a common parent 'div'.
-				It will become one of the two grid cells in our layout. 
+				It will become one of the two grid cells in our layout.
 			*/}
 			<EpicStackLogo className="size-20" />
 			<h1>
