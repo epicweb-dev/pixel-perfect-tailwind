@@ -94,7 +94,7 @@ things to inspect them.
 Use the Epic Workshop CLI to get this setup:
 
 ```sh nonumber
-npx epicshop@latest add pixel-perfect-tailwind
+npx --yes epicshop@latest add pixel-perfect-tailwind
 ```
 
 If you experience errors here, please open [an issue][issue] with as many
