@@ -18,13 +18,13 @@
   },
   "type": "module",
   "scripts": {
-    "postinstall": "cd ./epicshop && npm install",
-    "start": "npx --prefix ./epicshop epicshop start",
-    "dev": "npx --prefix ./epicshop epicshop start",
-    "test": "npm run test --silent --prefix playground",
-    "test:e2e": "npm run test:e2e --silent --prefix playground",
-    "test:e2e:dev": "npm run test:e2e:dev --silent --prefix playground",
-    "test:e2e:run": "npm run test:e2e:run --silent --prefix playground",
+    "postinstall": "cd ./epicshop && pkgmgr install",
+    "start": "pkgmgrx --prefix ./epicshop epicshop start",
+    "dev": "pkgmgrx --prefix ./epicshop epicshop start",
+    "test": "pkgmgr run test --silent --prefix playground",
+    "test:e2e": "pkgmgr run test:e2e --silent --prefix playground",
+    "test:e2e:dev": "pkgmgr run test:e2e:dev --silent --prefix playground",
+    "test:e2e:run": "pkgmgr run test:e2e:run --silent --prefix playground",
     "setup": "node ./epicshop/setup.js",
     "setup:custom": "node ./epicshop/setup-custom.js",
     "lint": "eslint .",
@@ -48,7 +48,8 @@
     "@epic-web/config": "^1.21.0",
     "eslint": "^9.31.0",
     "prettier": "^3.6.2",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "pkgmgr": "^1.1.1"
   },
   "prettier": "@epic-web/config/prettier"
 }
