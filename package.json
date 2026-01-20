@@ -25,7 +25,7 @@
     "test:e2e": "pkgmgr run test:e2e --silent --prefix playground",
     "test:e2e:dev": "pkgmgr run test:e2e:dev --silent --prefix playground",
     "test:e2e:run": "pkgmgr run test:e2e:run --silent --prefix playground",
-    "setup": "node ./epicshop/setup.js",
+    "setup": "pkgmgrx epicshop setup",
     "setup:custom": "node ./epicshop/setup-custom.js",
     "lint": "eslint .",
     "format": "prettier --write .",
