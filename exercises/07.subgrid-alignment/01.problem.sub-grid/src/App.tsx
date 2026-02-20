@@ -65,14 +65,14 @@ export default function App() {
 						guide file for how to get your project off the ground!
 					</p>
 				</div>
-				{/* 
+				{/*
 					🐨 At the `xl` breakpoint...
-						
+
 					1. Defer the grid rows to the parent grid with `subgrid`
 					2. Span the grid across 6 rows
 
 					💰 You can define grid-template-rows as a `subgrid` with `grid-rows-subgrid`
-					💰 You can span an element acorss multiple rows with the `row-span-*` utilities
+					💰 You can span an element across multiple rows with the `row-span-*` utilities
 				*/}
 				<ul className="flex max-w-3xl flex-wrap justify-center gap-2 sm:gap-4 xl:grid xl:grid-flow-col xl:grid-cols-5 xl:grid-rows-6">
 					{logos.map((logo, i) => (
