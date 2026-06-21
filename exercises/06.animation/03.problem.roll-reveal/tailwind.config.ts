@@ -2,9 +2,9 @@ import easings from 'open-props/src/easing'
 import { type Config } from 'tailwindcss'
 
 /*
-	🧝‍♀️ I've added the 'open-props' npm package and 
+	🧝‍♀️ I've added the 'open-props' npm package and
 	imported a series of easing timing functions.
-	
+
 	You can use one of these to fine-tune the "roll-reveal" animation below!
 */
 
@@ -27,7 +27,7 @@ export default {
 				'5.5xl': ['3.375rem', '1'],
 			},
 			keyframes: {
-				/* 
+				/*
 					🐨 1. Create a 'roll-reveal' keyframe object.
 
 					It should start with...
@@ -43,10 +43,10 @@ export default {
 
 				/*
 					👨‍💼 We want to respect the user's system preferences for reduced motion,
-					so let's also create an "alternative", simpler reveal. 
+					so let's also create an "alternative", simpler reveal.
 
-					🐨 2. Create a 'fade-in' keyframes definition. 
-					
+					🐨 2. Create a 'fade-in' keyframes definition.
+
 					It should start at 0% opacity and end at 100% opacity.
 				*/
 				'slide-left': {
@@ -59,17 +59,17 @@ export default {
 				},
 			},
 			animation: {
-				/* 
+				/*
 					🐨 1. Add a 'roll-reveal' animation. It should use the 'roll-reveal' keyframe
 					you just created, and animate once over 0.4 seconds.
 
-					Try your own easigns (https://cubic-bezier.com is a great resource ✨), 
-					or have fun playing with Open Props' easing function we've imported! 
-					
+					Try your own easings (https://cubic-bezier.com is a great resource ✨),
+					or have fun playing with Open Props' easing function we've imported!
+
 					In the solution, we use the `--ease-spring-2` easing function.
 				*/
 
-				/* 
+				/*
 					🐨 2. Add a 'fade-in' animation. It should use the 'fade-in' keyframe
 					you just created, and animate once over 0.4 seconds.
 				*/
