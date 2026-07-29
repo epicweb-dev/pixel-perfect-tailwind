@@ -5,7 +5,7 @@ import { spawn } from 'child_process'
 import path from 'node:path'
 import {
 	getApps,
-	isExampleApp,
+	isExtraApp,
 	isSolutionApp,
 } from '@epic-web/workshop-utils/apps.server'
 
@@ -36,11 +36,11 @@ process.env.NODE_ENV = 'development'
 
 const apps = await getApps()
 const solutionApps = apps.filter(isSolutionApp)
-const exampleApps = apps.filter(isExampleApp)
+const extraApps = apps.filter(isExtraApp)
 
 let exitCode = 0
 
-for (const app of [...solutionApps, ...exampleApps]) {
+for (const app of [...solutionApps, ...extraApps]) {
 	if (app.test.type !== 'script') continue
 
 	const relativePath = relativeToWorkshopRoot(app.fullPath)
